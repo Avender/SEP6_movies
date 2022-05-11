@@ -1,8 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "a2YWP1NXBwbFO+o+ahZe8FxfWzL0n4j4WEvhpOVgvimmsCnor4b8iRnPS+RlHdJ8o6xCNuYhH8tnENyT2OKU4A==",
+  "dgSpecHash": "GqoGdAAmwGrqkk9CZRUKUVHP7/Nvv96NPKO6mx/T8ftwSt9Fbnk6ZS8senr+MvaYCjqG9vKXCIHSj8PWlkyFdQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mainh\\RiderProjects\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\BlazorApp1\\BlazorApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Festis\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.4\\microsoft.aspnetcore.authorization.6.0.4.nupkg.sha512",
+    "C:\\Users\\Festis\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.4\\microsoft.aspnetcore.components.6.0.4.nupkg.sha512",
+    "C:\\Users\\Festis\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.4\\microsoft.aspnetcore.components.analyzers.6.0.4.nupkg.sha512",
+    "C:\\Users\\Festis\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\6.0.4\\microsoft.aspnetcore.components.forms.6.0.4.nupkg.sha512",
+    "C:\\Users\\Festis\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.4\\microsoft.aspnetcore.components.web.6.0.4.nupkg.sha512",
+    "C:\\Users\\Festis\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.4\\microsoft.aspnetcore.metadata.6.0.4.nupkg.sha512",
+    "C:\\Users\\Festis\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\Festis\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Festis\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
+    "C:\\Users\\Festis\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Festis\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Festis\\.nuget\\packages\\microsoft.jsinterop\\6.0.4\\microsoft.jsinterop.6.0.4.nupkg.sha512",
+    "C:\\Users\\Festis\\.nuget\\packages\\mudblazor\\6.0.10\\mudblazor.6.0.10.nupkg.sha512",
+    "C:\\Users\\Festis\\.nuget\\packages\\system.io.pipelines\\6.0.2\\system.io.pipelines.6.0.2.nupkg.sha512",
+    "C:\\Users\\Festis\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

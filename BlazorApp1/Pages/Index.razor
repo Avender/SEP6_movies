@@ -2,8 +2,35 @@
 
 <PageTitle>Index</PageTitle>
 
-<div>
-    <img src="images/Spider-Man.png" alt="">
-</div>
+@* <div> *@
+@*     <img src="images/Spider-Man.png" alt=""> *@
+@* </div> *@
 
-<SurveyPrompt Title="How is Blazor working for you?"/>
+<MudLayout>
+    <MudContainer Class="mt-16 px-8" MaxWidth="MaxWidth.False">
+        <MudGrid>
+            <MudItem xs="3">
+                <MudPaper Elevation="2" Class="pa-4" Style="height: 300px; width: 180px">
+                    <MudImage Src="images/Spider-Man.png" Fluid="true" Alt="Spider-Man No Way Home" Elevation="25" Class="rounded-lg"/>
+                </MudPaper>
+            </MudItem>
+            <MudItem xs="3">
+                <MudPaper Elevation="2" Class="pa-4" Style="height: 300px; width: 180px">
+                    <MudImage Src="images/Spider-Man.png" Fluid="true" Alt="Spider-Man No Way Home" Elevation="25" Class="rounded-lg"/>
+                </MudPaper>
+            </MudItem>
+            <MudItem xs="3">
+                <MudPaper Elevation="2" Class="pa-4" Style="height: 300px; width: 180px">
+                    <MudImage Src="images/Spider-Man.png" Fluid="true" Alt="Spider-Man No Way Home" Elevation="25" Class="rounded-lg"/>
+                </MudPaper>
+            </MudItem>
+            <MudItem xs="3">
+                <MudPaper Elevation="2" Class="pa-4" Style="height: 300px; width: 180px">
+                    <MudImage Src="images/Spider-Man.png" Fluid="true" Alt="Spider-Man No Way Home" Elevation="25" Class="rounded-lg"/>
+                </MudPaper>
+            </MudItem>
+        </MudGrid>
+    </MudContainer>
+</MudLayout>
+
+@* <SurveyPrompt Title="How is Blazor working for you?"/> *@
