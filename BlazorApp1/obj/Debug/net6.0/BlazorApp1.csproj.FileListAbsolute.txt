@@ -99,3 +99,12 @@ D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\obj\Debug\n
 D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\obj\Debug\net6.0\BlazorApp1.pdb
 D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\obj\Debug\net6.0\BlazorApp1.genruntimeconfig.cache
 D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\obj\Debug\net6.0\ref\BlazorApp1.dll
+D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll

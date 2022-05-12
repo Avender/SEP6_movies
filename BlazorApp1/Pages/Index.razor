@@ -1,5 +1,9 @@
 ﻿@page "/"
 
+@using BlazorApp1.Module
+@using System.Net
+@using System.Web.Script.Serialization;
+
 <PageTitle>Index</PageTitle>
 
 <MudLayout>
@@ -9,15 +13,8 @@
             @*                  ResetValueOnEmptyText="@resetValueOnEmptyText" *@
             @*                  CoerceText="@coerceText" CoerceValue="@coerceValue" *@
             @*                  AdornmentIcon="@Icons.Material.Filled.Search" AdornmentColor="Color.Primary" /> *@
-            <MudInput T="TextReader" value="@SearchText"  @oninput="@FilterChangedAsync" />
             
-            @* <div class="p-2 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3"> *@
-            @*     @foreach (var image in FilteredImages) *@
-            @*     { *@
-            @*         <ImageCard ImageDetails="image" /> *@
-            @*     } *@
-            @* </div> *@
-            
+            @*<MudInput T="String" @bind-Value="values" SearchMethod="@Search" />*@
         </MudItem>
         <MudGrid>
             <MudItem xs="6" sm="2">
@@ -79,20 +76,46 @@
     private void FilterChangedAsync(ChangeEventArgs args)
     {
         SearchText = args.Value.ToString();
-
-        List<MudImage> FilteredImages => new List<MudImage>().Where(
-            img => img.Alt.ToLower().Contains(SearchText)).ToList();
-    //do your stuff from here
+        
+        //do your stuff from here
     }
-
-    private async Task<IEnumerable<string>> Search(string values)
-    {
-        // In real life use an asynchronous function for fetching data from an api.
-        await Task.Delay(5);
     
-        // if text is null or empty, don't return values (drop-down will not open)
-        if (string.IsNullOrEmpty(values))
-            return new string[0];
-        return movies.Where(x => x.Contains(values, StringComparison.InvariantCultureIgnoreCase));
+
+    private async Task<IEnumerable<string>> Search(string searchValue)
+    {
+    // In real life use an asynchronous function for fetching data from an api.
+    await Task.Delay(5);
+    
+    // if text is null or empty, don't return values (drop-down will not open)
+    if (string.IsNullOrEmpty(values))
+        return new string[0];
+    return movies.Where(x => x.Contains(values, StringComparison.InvariantCultureIgnoreCase));
     }
+    
+    private void btnSearch_Click(object sender, EventArgs e)
+    {
+        string url = "http://www.omdbapi.com/?=" + "10872600&apikey=7a662e38";
+        using (WebClient wc = new WebClient())
+        {
+            var json = wc.DownloadString(url);
+            JavaScriptSerializer oJS = new JavaScriptSerializer();
+            MovieEntity obj = new MovieEntity();
+            obj = oJS.Deserialize<MovieEntity>(json);
+            if (obj.Response == "True")
+            {
+                pictureBox1.ImageLocation = obj.Poster;
+
+            }
+            else
+            {
+                pictureBox1.ImageLocation = "";
+            }
+
+
+        }
+    }
+    
+
+
+
 }
