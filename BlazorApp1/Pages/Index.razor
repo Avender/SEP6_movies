@@ -5,16 +5,36 @@
 <MudLayout>
     <MudContainer Class="mt-16 px-8" MaxWidth="MaxWidth.False">
         <MudItem xs="12" sm="6" md="4">
-            <MudAutocomplete T="string" Label="Enter keywords..." @bind-Value="value2" SearchFunc="@Search"
-                             ResetValueOnEmptyText="@resetValueOnEmptyText"
-                             CoerceText="@coerceText" CoerceValue="@coerceValue"
-                             AdornmentIcon="@Icons.Material.Filled.Search" AdornmentColor="Color.Primary" />
+            @* <MudAutocomplete T="string" Label="Enter keywords..." @bind-Value="values" SearchFunc="@Search" *@
+            @*                  ResetValueOnEmptyText="@resetValueOnEmptyText" *@
+            @*                  CoerceText="@coerceText" CoerceValue="@coerceValue" *@
+            @*                  AdornmentIcon="@Icons.Material.Filled.Search" AdornmentColor="Color.Primary" /> *@
+            @* <MudInput T="InputText" @bind-value="SearchText" *@
+            @*           @bind-value:event="oninput" @oninput="@FilterChangedAsync"></MudInput> *@
+            <div class="text-center bg-blue-100">
+                <input class="border-4 w-1/3 rounded m-6 p-6 h-8
+                           border-blue-300" @bind-value="SearchText"
+                       @bind-value:event="oninput" placeholder="Search by title" />
+            </div>
+            @if (!ImageList.Any())
+            {
+                <p>Loading some images...</p>
+            }
+            else
+            {
+                <div class="p-2 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
+                    @foreach (var image in FilteredImages)
+                    {
+                        <ImageCard ImageDetails="image" />
+                    }
+                </div>
+            }
         </MudItem>
         <MudGrid>
             <MudItem xs="6" sm="2">
                 <MudPaper Elevation="2" Class="pa-4" Style="height: 300px; width: 180px">
                     <MudImage Src="images/Spider-Man.png" Fluid="true" Alt="Spider-Man: No Way Home" Elevation="25" Class="rounded-lg"/>
-                    <MudText Align="Align.Center">Spider-Man: No Way Home</MudText>
+                    <MudText Align="Align.Center" >Spider-Man: No Way Home</MudText>
                 </MudPaper>
             </MudItem>
             <MudItem xs="6" sm="2">
@@ -55,20 +75,35 @@
     private bool resetValueOnEmptyText;
     private bool coerceText;
     private bool coerceValue;
-    private string value1, value2;
+    private string values;
     private string[] movies =
     {
         "Spider-Man: No Way Home",
     };
+    public IEnumerable<MudImage> ImageList { get; set; } = new List<MudImage>();
+    public string SearchText = "";
+    
+    
+    List<MudImage> FilteredImages => new List<MudImage>().Where(
+        img => img.Alt.ToLower().Contains(SearchText.ToLower())).ToList();
+    
+    // private string? SearchText { get; set; }
+							
+    // private void FilterChangedAsync(ChangeEventArgs args)
+    // {
+    //     SearchText = args.Value.ToString();
+				// 					
+    // //do your stuff from here
+    // }
 
-    private async Task<IEnumerable<string>> Search(string value)
+    private async Task<IEnumerable<string>> Search(string values)
     {
         // In real life use an asynchronous function for fetching data from an api.
         await Task.Delay(5);
     
         // if text is null or empty, don't return values (drop-down will not open)
-        if (string.IsNullOrEmpty(value))
+        if (string.IsNullOrEmpty(values))
             return new string[0];
-        return movies.Where(x => x.Contains(value, StringComparison.InvariantCultureIgnoreCase));
+        return movies.Where(x => x.Contains(values, StringComparison.InvariantCultureIgnoreCase));
     }
 }
