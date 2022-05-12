@@ -31,6 +31,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/Shared/MudBlazorLogo.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE11ZEJsYXpvckxvZ28ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

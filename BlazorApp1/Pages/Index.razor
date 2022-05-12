@@ -2,17 +2,19 @@
 
 <PageTitle>Index</PageTitle>
 
-@* <div> *@
-@*     <img src="images/Spider-Man.png" alt=""> *@
-@* </div> *@
-
 <MudLayout>
     <MudContainer Class="mt-16 px-8" MaxWidth="MaxWidth.False">
+        <MudItem xs="12" sm="6" md="4">
+            <MudAutocomplete T="string" Label="Enter keywords..." @bind-Value="value2" SearchFunc="@Search"
+                             ResetValueOnEmptyText="@resetValueOnEmptyText"
+                             CoerceText="@coerceText" CoerceValue="@coerceValue"
+                             AdornmentIcon="@Icons.Material.Filled.Search" AdornmentColor="Color.Primary" />
+        </MudItem>
         <MudGrid>
             <MudItem xs="6" sm="2">
                 <MudPaper Elevation="2" Class="pa-4" Style="height: 300px; width: 180px">
                     <MudImage Src="images/Spider-Man.png" Fluid="true" Alt="Spider-Man: No Way Home" Elevation="25" Class="rounded-lg"/>
-                    Spider-Man: No Way Home
+                    <MudText Align="Align.Center">Spider-Man: No Way Home</MudText>
                 </MudPaper>
             </MudItem>
             <MudItem xs="6" sm="2">
@@ -45,9 +47,28 @@
                     <MudImage Src="images/Spider-Man.png" Fluid="true" Alt="Spider-Man: No Way Home" Elevation="25" Class="rounded-lg"/>
                 </MudPaper>
             </MudItem>
-            
         </MudGrid>
     </MudContainer>
 </MudLayout>
 
-@* <SurveyPrompt Title="How is Blazor working for you?"/> *@
+@code {
+    private bool resetValueOnEmptyText;
+    private bool coerceText;
+    private bool coerceValue;
+    private string value1, value2;
+    private string[] movies =
+    {
+        "Spider-Man: No Way Home",
+    };
+
+    private async Task<IEnumerable<string>> Search(string value)
+    {
+        // In real life use an asynchronous function for fetching data from an api.
+        await Task.Delay(5);
+    
+        // if text is null or empty, don't return values (drop-down will not open)
+        if (string.IsNullOrEmpty(value))
+            return new string[0];
+        return movies.Where(x => x.Contains(value, StringComparison.InvariantCultureIgnoreCase));
+    }
+}
