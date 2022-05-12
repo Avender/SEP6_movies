@@ -108,3 +108,5 @@ D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\n
 D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
 D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
 D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\System.Web.Extensions.dll
+D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Newtonsoft.Json.dll

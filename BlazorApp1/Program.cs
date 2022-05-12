@@ -1,6 +1,9 @@
+using System.Net;
+using System.Web.Script.Serialization;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using BlazorApp1.Data;
+using BlazorApp1.Module;
 using MudBlazor.Services;
 
 var builder = WebApplication.CreateBuilder(args);

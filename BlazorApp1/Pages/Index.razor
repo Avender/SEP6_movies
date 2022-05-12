@@ -1,8 +1,10 @@
 ﻿@page "/"
-
+@inject ILogger<Counter> logger
 @using BlazorApp1.Module
 @using System.Net
-@using System.Web.Script.Serialization;
+@using System.Web.Script.Serialization
+@using Newtonsoft.Json
+
 
 <PageTitle>Index</PageTitle>
 
@@ -26,6 +28,7 @@
             <MudItem xs="6" sm="2">
                 <MudPaper Elevation="2" Class="pa-4" Style="height: 300px; width: 180px">
                     <MudImage Src="images/Spider-Man.png" Fluid="true" Alt="Spider-Man: No Way Home" Elevation="25" Class="rounded-lg"/>
+                    <MudText Align="Align.Center">Spider-Man: No Way Home</MudText>
                 </MudPaper>
             </MudItem>
             <MudItem xs="6" sm="2">
@@ -71,51 +74,62 @@
     // List<MudImage> FilteredImages => new List<MudImage>().Where(
     //     img => img.Alt.ToLower().Contains(SearchText.ToLower())).ToList();
     
-    private string? SearchText { get; set; }
-							
-    private void FilterChangedAsync(ChangeEventArgs args)
-    {
-        SearchText = args.Value.ToString();
-        
-        //do your stuff from here
-    }
+    // private string? SearchText { get; set; }
+				// 			
+    // private void FilterChangedAsync(ChangeEventArgs args)
+    // {
+    //     SearchText = args.Value.ToString();
+    //     
+    //     //do your stuff from here
+    // }
     
 
-    private async Task<IEnumerable<string>> Search(string searchValue)
-    {
-    // In real life use an asynchronous function for fetching data from an api.
-    await Task.Delay(5);
+    // private async Task<IEnumerable<string>> Search(string searchValue)
+    // {
+    // // In real life use an asynchronous function for fetching data from an api.
+    // await Task.Delay(5);
+    //
+    // // if text is null or empty, don't return values (drop-down will not open)
+    // if (string.IsNullOrEmpty(values))
+    //     return new string[0];
+    // return movies.Where(x => x.Contains(values, StringComparison.InvariantCultureIgnoreCase));
+    // }
     
-    // if text is null or empty, don't return values (drop-down will not open)
-    if (string.IsNullOrEmpty(values))
-        return new string[0];
-    return movies.Where(x => x.Contains(values, StringComparison.InvariantCultureIgnoreCase));
-    }
-    
-    private void btnSearch_Click(object sender, EventArgs e)
+    //Deserializes the JSON and puts it in the MovieEntity object
+    protected override void OnInitialized() 
     {
-        string url = "http://www.omdbapi.com/?=" + "10872600&apikey=7a662e38";
+        string Title, Year,Rated,Released,Runtime,Genre,Director,Writer,Actors,Plot,Language,Country,Awards,Poster
+            ,Metascore,imdbRating,imdbVotes,imdbID,Type,Response;
+        
+        Console.WriteLine("are we even here?");
+        string url = "http://www.omdbapi.com/?i=tt10872600&apikey=7a662e38";
         using (WebClient wc = new WebClient())
         {
+            Console.WriteLine("ALMOST IN");
             var json = wc.DownloadString(url);
-            JavaScriptSerializer oJS = new JavaScriptSerializer();
-            MovieEntity obj = new MovieEntity();
-            obj = oJS.Deserialize<MovieEntity>(json);
-            if (obj.Response == "True")
-            {
-                pictureBox1.ImageLocation = obj.Poster;
-
-            }
-            else
-            {
-                pictureBox1.ImageLocation = "";
-            }
-
-
+            Console.WriteLine(json);
+            MovieEntity obj = JsonConvert.DeserializeObject<MovieEntity>(json);
+                Title = obj.Title;
+                Year = obj.Year;
+                Rated = obj.Rated;
+                Released = obj.Released;
+                Runtime = obj.Runtime;
+                Genre = obj.Genre;
+                Director = obj.Director;
+                Writer = obj.Writer;
+                Actors = obj.Actors;
+                Plot = obj.Plot;
+                Language = obj.Language;
+                Country = obj.Country;
+                Awards = obj.Awards;
+                Poster = obj.Poster;
+                Metascore = obj.Metascore;
+                imdbRating = obj.imdbRating;
+                imdbVotes = obj.imdbVotes;
+                imdbID = obj.imdbID;
+                Type = obj.Type;
+                Response = obj.Response;
+            Console.WriteLine("WE ARE IN "+Title);
         }
-    }
-    
-
-
-
+     } 
 }
