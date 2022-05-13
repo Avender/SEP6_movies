@@ -1,0 +1,29 @@
+﻿@page "/MovieDetails/{Value}"
+@using System.Net
+@using Newtonsoft.Json
+@using BlazorApp1.Module
+<h3>MovieDetails</h3>
+<MudImage Src="https://image.tmdb.org/t/p/w200/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg" Fluid="true" Alt="Spider-Man: No Way Home" Elevation="25" Class="rounded-lg"/>
+
+@code {
+    [Parameter]
+    public string Value { get; set; }
+    
+    
+    protected override void OnParametersSet()
+    {
+    //the param will be set now
+        var id = Value;
+        
+        string url = "https://api.themoviedb.org/3/movie/"+id+"?api_key=a5ab4805002668ee4999f8bac7a4691d&language=en-US";
+        using (WebClient wc = new WebClient())
+        {
+            var json = wc.DownloadString(url);
+            var obj = JsonConvert.DeserializeObject<MovieEntity>(json);
+            Console.WriteLine("Title: "+obj.title);
+
+        }
+    }
+    
+    
+}

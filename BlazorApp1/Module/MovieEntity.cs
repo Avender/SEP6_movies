@@ -6,52 +6,49 @@ namespace BlazorApp1.Module;
 [Serializable]
 public class MovieEntity
 {
-    [JsonProperty("Title")]
-    public string Title { get; set; }
-    [JsonProperty("Year")]
-    public string Year { get; set; }
-    [JsonProperty("Rated")]
-    public string Rated { get; set; }
-    [JsonProperty("Released")]
-    public string Released { get; set; }
-    [JsonProperty("Runtime")]
-    public string Runtime { get; set; }
-    [JsonProperty("Genre")]
-    public string Genre { get; set; }
-    [JsonProperty("Director")]
-    public string Director { get; set; }
-    [JsonProperty("Writer")]
-    public string Writer { get; set; }
-    [JsonProperty("Actors")]
-    public string Actors { get; set; }
-    [JsonProperty("Plot")]
-    public string Plot { get; set; }
-    [JsonProperty("Language")]
-    public string Language { get; set; }    
-    [JsonProperty("Country")]
-    public string Country { get; set; }
-    [JsonProperty("Awards")]
-    public string Awards { get; set; }
-    [JsonProperty("Poster")]
-    public string Poster { get; set; }
+    [JsonProperty("title")]
+    public string title { get; set; }
+    [JsonProperty("genre")]
+    public Genre[] genre { get; set; }
+    [JsonProperty("imdb_id")]
+    public string imdb_id { get; set; }
+    [JsonProperty("original_language")]
+    public string original_language { get; set; }
+    [JsonProperty("overview")]
+    public string overview { get; set; }
+    [JsonProperty("popularity")]
+    public string popularity { get; set; }
+    [JsonProperty("poster_path")]
+    public string poster_path { get; set; }
+    [JsonProperty("release_date")]
+    public string release_date { get; set; }
+    [JsonProperty("revenue")]
+    public string revenue { get; set; }
+    [JsonProperty("runtime")]
+    public string runtime { get; set; }
+    [JsonProperty("status")]
+    public string status { get; set; }    
+    [JsonProperty("vote_average")]
+    public string vote_average { get; set; }
+    [JsonProperty("production_countries")]
+    public Countries[] production_countries { get; set; }
+    [JsonProperty("vote_count")]
+    public string vote_count { get; set; }
+}
 
-    [JsonIgnore] public string Ratings { get; set; }
-    
-    [JsonProperty("Metascore")]
-    public string Metascore { get; set; }
-    [JsonProperty("imdbRating")]
-    public string imdbRating { get; set; }
-    [JsonProperty("imdbVotes")]
-    public string imdbVotes { get; set; }
-    [JsonProperty("imdbID")]
-    public string imdbID { get; set; }
-    [JsonProperty("Type")]
-    public string Type { get; set; }
-    [JsonIgnore] public string DVD { get; set; }
-    [JsonIgnore] public string BoxOffice { get; set; }
-    [JsonIgnore] public string Production { get; set; }
-    [JsonIgnore] public string Website { get; set; }
-    [JsonProperty("Response")]
-    public string Response { get; set; }
-    
+public class Genre
+{
+    [JsonProperty("name")]
+    public string name{ get; set; }
+
+    public void Test()
+    {
+        
+    }
+}
+
+public class Countries
+{
+    [JsonProperty("name")]
+    public string name{ get; set; }
 }

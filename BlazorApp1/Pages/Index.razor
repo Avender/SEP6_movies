@@ -1,45 +1,30 @@
 ﻿@page "/"
-@inject ILogger<Counter> logger
 @using BlazorApp1.Module
 @using System.Net
-@using System.Web.Script.Serialization
 @using Newtonsoft.Json
+@inject Microsoft.AspNetCore.Components.NavigationManager navigationManager
 
 
 <PageTitle>Index</PageTitle>
-
+@* "args => MovieDetails(spiderman)" *@
 <MudLayout>
     <MudContainer Class="mt-16 px-8" MaxWidth="MaxWidth.False">
-        <MudItem xs="12" sm="6" md="4">
-            @* <MudAutocomplete T="string" Label="Enter keywords..." @bind-Value="values" SearchFunc="@Search" *@
-            @*                  ResetValueOnEmptyText="@resetValueOnEmptyText" *@
-            @*                  CoerceText="@coerceText" CoerceValue="@coerceValue" *@
-            @*                  AdornmentIcon="@Icons.Material.Filled.Search" AdornmentColor="Color.Primary" /> *@
-            
-            @*<MudInput T="String" @bind-Value="values" SearchMethod="@Search" />*@
-        </MudItem>
         <MudGrid>
             <MudItem xs="6" sm="2">
-                <MudPaper Elevation="2" Class="pa-4" Style="height: 300px; width: 180px">
-                    <MudImage Src="images/Spider-Man.png" Fluid="true" Alt="Spider-Man: No Way Home" Elevation="25" Class="rounded-lg"/>
-                    <MudText Align="Align.Center">Spider-Man: No Way Home</MudText>
-                </MudPaper>
+                <MudButton OnClick="@(()=>MovieDetails("tt10872600"))">
+                    <MudPaper Elevation="2" Class="pa-4" Style="height: 300px; width: 180px">
+                        <MudImage Src="https://image.tmdb.org/t/p/w200/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg" Fluid="true" Alt="Spider-Man: No Way Home" Elevation="25" Class="rounded-lg"/>
+                        <MudText Align="Align.Center">Spider-Man: No Way Home</MudText>
+                    </MudPaper>
+                </MudButton>
             </MudItem>
             <MudItem xs="6" sm="2">
-                <MudPaper Elevation="2" Class="pa-4" Style="height: 300px; width: 180px">
-                    <MudImage Src="images/Spider-Man.png" Fluid="true" Alt="Spider-Man: No Way Home" Elevation="25" Class="rounded-lg"/>
-                    <MudText Align="Align.Center">Spider-Man: No Way Home</MudText>
-                </MudPaper>
-            </MudItem>
-            <MudItem xs="6" sm="2">
-                <MudPaper Elevation="2" Class="pa-4" Style="height: 300px; width: 180px">
-                    <MudImage Src="images/Spider-Man.png" Fluid="true" Alt="Spider-Man: No Way Home" Elevation="25" Class="rounded-lg"/>
-                </MudPaper>
-            </MudItem>
-            <MudItem xs="6" sm="2">
-                <MudPaper Elevation="2" Class="pa-4" Style="height: 300px; width: 180px">
-                    <MudImage Src="images/Spider-Man.png" Fluid="true" Alt="Spider-Man: No Way Home" Elevation="25" Class="rounded-lg"/>
-                </MudPaper>
+                <MudButton >
+                                    <MudPaper Elevation="2" Class="pa-4" Style="height: 300px; width: 180px">
+                                        <MudImage Src="https://image.tmdb.org/t/p/w200/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg" Fluid="true" Alt="Spider-Man: No Way Home" Elevation="25" Class="rounded-lg"/>
+                                        <MudText Align="Align.Center">Spider-Man: No Way Home</MudText>
+                                    </MudPaper>
+                                </MudButton>
             </MudItem>
             <MudItem xs="6" sm="2">
                 <MudPaper Elevation="2" Class="pa-4" Style="height: 300px; width: 180px">
@@ -48,6 +33,16 @@
             </MudItem>
             <MudItem xs="6" sm="2">
                 <MudPaper Elevation="2" Class="pa-4" Style="height: 300px; width: 180px">
+                    <MudImage Src="images/Spider-Man.png" Fluid="true" Alt="Spider-Man: No Way Home" Elevation="25" Class="rounded-lg"/>
+                </MudPaper>
+            </MudItem>
+            <MudItem xs="6" sm="2">
+                <MudPaper Elevation="2" Class="pa-4" Style="height: 300px; width: 180px">
+                    <MudImage Src="images/Spider-Man.png" Fluid="true" Alt="Spider-Man: No Way Home" Elevation="25" Class="rounded-lg"/>
+                </MudPaper>
+            </MudItem>
+            <MudItem xs="6" sm="2">
+                <MudPaper Elevation="2" Class="pa-4" Style="height: 300px; width: 180px" Href="/spider">
                     <MudImage Src="images/Spider-Man.png" Fluid="true" Alt="Spider-Man: No Way Home" Elevation="25" Class="rounded-lg"/>
                 </MudPaper>
             </MudItem>
@@ -61,75 +56,19 @@
 </MudLayout>
 
 @code {
-    private bool resetValueOnEmptyText;
-    private bool coerceText;
-    private bool coerceValue;
-    private string values;
-    private string[] movies =
-    {
-        "Spider-Man: No Way Home",
-    };
-    // public IEnumerable<MudImage> ImageList { get; set; } = new List<MudImage>();
-    // public string SearchText = "";
-    // List<MudImage> FilteredImages => new List<MudImage>().Where(
-    //     img => img.Alt.ToLower().Contains(SearchText.ToLower())).ToList();
     
-    // private string? SearchText { get; set; }
-				// 			
-    // private void FilterChangedAsync(ChangeEventArgs args)
-    // {
-    //     SearchText = args.Value.ToString();
-    //     
-    //     //do your stuff from here
-    // }
-    
-
-    // private async Task<IEnumerable<string>> Search(string searchValue)
-    // {
-    // // In real life use an asynchronous function for fetching data from an api.
-    // await Task.Delay(5);
-    //
-    // // if text is null or empty, don't return values (drop-down will not open)
-    // if (string.IsNullOrEmpty(values))
-    //     return new string[0];
-    // return movies.Where(x => x.Contains(values, StringComparison.InvariantCultureIgnoreCase));
-    // }
     
     //Deserializes the JSON and puts it in the MovieEntity object
-    protected override void OnInitialized() 
+    //TODO move this method to MovieDetails and only have navigationManager in here
+    void MovieDetails(string id)
     {
-        string Title, Year,Rated,Released,Runtime,Genre,Director,Writer,Actors,Plot,Language,Country,Awards,Poster
-            ,Metascore,imdbRating,imdbVotes,imdbID,Type,Response;
-        
-        Console.WriteLine("are we even here?");
-        string url = "http://www.omdbapi.com/?i=tt10872600&apikey=7a662e38";
+        string url = "https://api.themoviedb.org/3/movie/"+id+"?api_key=a5ab4805002668ee4999f8bac7a4691d&language=en-US";
         using (WebClient wc = new WebClient())
         {
-            Console.WriteLine("ALMOST IN");
             var json = wc.DownloadString(url);
-            Console.WriteLine(json);
-            MovieEntity obj = JsonConvert.DeserializeObject<MovieEntity>(json);
-                Title = obj.Title;
-                Year = obj.Year;
-                Rated = obj.Rated;
-                Released = obj.Released;
-                Runtime = obj.Runtime;
-                Genre = obj.Genre;
-                Director = obj.Director;
-                Writer = obj.Writer;
-                Actors = obj.Actors;
-                Plot = obj.Plot;
-                Language = obj.Language;
-                Country = obj.Country;
-                Awards = obj.Awards;
-                Poster = obj.Poster;
-                Metascore = obj.Metascore;
-                imdbRating = obj.imdbRating;
-                imdbVotes = obj.imdbVotes;
-                imdbID = obj.imdbID;
-                Type = obj.Type;
-                Response = obj.Response;
-            Console.WriteLine("WE ARE IN "+Title);
+            var obj = JsonConvert.DeserializeObject<MovieEntity>(json);
+            navigationManager.NavigateTo($"MovieDetails/{id}");
         }
-     } 
+        
+    }
 }
