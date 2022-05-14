@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UOQ+v2exZ1922FgS6kx4RzmqkirtTtIcHg37NBGomeo=",
+  "Hash": "eNiH3XComGRP9eLC1IJ4tjAkGGm+LrJsFteHdRpIhUQ=",
   "Source": "BlazorApp1",
   "BasePath": "_content/BlazorApp1",
   "Mode": "Default",
@@ -8,19 +8,19 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
-      "Name": "BlazorApp1\\wwwroot",
+      "Name": "BlazorApp1/wwwroot",
       "Source": "BlazorApp1",
-      "ContentRoot": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\wwwroot\\",
+      "ContentRoot": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/wwwroot/",
       "BasePath": "_content/BlazorApp1",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Festis\\.nuget\\packages\\mudblazor\\6.0.10\\staticwebassets\\MudBlazor.min.css",
+      "Identity": "/Users/macbookairandreea/.nuget/packages/mudblazor/6.0.10/staticwebassets/MudBlazor.min.css",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Festis\\.nuget\\packages\\mudblazor\\6.0.10\\staticwebassets\\",
+      "ContentRoot": "/Users/macbookairandreea/.nuget/packages/mudblazor/6.0.10/staticwebassets/",
       "BasePath": "_content/MudBlazor",
       "RelativePath": "MudBlazor.min.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Festis\\.nuget\\packages\\mudblazor\\6.0.10\\staticwebassets\\MudBlazor.min.css"
+      "OriginalItemSpec": "/Users/macbookairandreea/.nuget/packages/mudblazor/6.0.10/staticwebassets/MudBlazor.min.css"
     },
     {
-      "Identity": "C:\\Users\\Festis\\.nuget\\packages\\mudblazor\\6.0.10\\staticwebassets\\MudBlazor.min.js",
+      "Identity": "/Users/macbookairandreea/.nuget/packages/mudblazor/6.0.10/staticwebassets/MudBlazor.min.js",
       "SourceId": "MudBlazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\Festis\\.nuget\\packages\\mudblazor\\6.0.10\\staticwebassets\\",
+      "ContentRoot": "/Users/macbookairandreea/.nuget/packages/mudblazor/6.0.10/staticwebassets/",
       "BasePath": "_content/MudBlazor",
       "RelativePath": "MudBlazor.min.js",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Festis\\.nuget\\packages\\mudblazor\\6.0.10\\staticwebassets\\MudBlazor.min.js"
+      "OriginalItemSpec": "/Users/macbookairandreea/.nuget/packages/mudblazor/6.0.10/staticwebassets/MudBlazor.min.js"
     },
     {
-      "Identity": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorApp1.styles.css",
+      "Identity": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/obj/Debug/net6.0/scopedcss/bundle/BlazorApp1.styles.css",
       "SourceId": "BlazorApp1",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/obj/Debug/net6.0/scopedcss/bundle/",
       "BasePath": "_content/BlazorApp1",
       "RelativePath": "BlazorApp1.styles.css",
       "AssetKind": "All",
@@ -65,13 +65,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorApp1.styles.css"
+      "OriginalItemSpec": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/obj/Debug/net6.0/scopedcss/bundle/BlazorApp1.styles.css"
     },
     {
-      "Identity": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorApp1.bundle.scp.css",
+      "Identity": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/obj/Debug/net6.0/scopedcss/projectbundle/BlazorApp1.bundle.scp.css",
       "SourceId": "BlazorApp1",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/obj/Debug/net6.0/scopedcss/projectbundle/",
       "BasePath": "_content/BlazorApp1",
       "RelativePath": "BlazorApp1.bundle.scp.css",
       "AssetKind": "All",
@@ -82,13 +82,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorApp1.bundle.scp.css"
+      "OriginalItemSpec": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/obj/Debug/net6.0/scopedcss/projectbundle/BlazorApp1.bundle.scp.css"
     },
     {
-      "Identity": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/wwwroot/css/bootstrap/bootstrap.min.css",
       "SourceId": "BlazorApp1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\wwwroot\\",
+      "ContentRoot": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/wwwroot/",
       "BasePath": "_content/BlazorApp1",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -99,13 +99,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css"
     },
     {
-      "Identity": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/wwwroot/css/bootstrap/bootstrap.min.css.map",
       "SourceId": "BlazorApp1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\wwwroot\\",
+      "ContentRoot": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/wwwroot/",
       "BasePath": "_content/BlazorApp1",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -116,13 +116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+      "OriginalItemSpec": "wwwroot/css/bootstrap/bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/wwwroot/css/open-iconic/FONT-LICENSE",
       "SourceId": "BlazorApp1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\wwwroot\\",
+      "ContentRoot": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/wwwroot/",
       "BasePath": "_content/BlazorApp1",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -133,13 +133,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/FONT-LICENSE"
     },
     {
-      "Identity": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "SourceId": "BlazorApp1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\wwwroot\\",
+      "ContentRoot": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/wwwroot/",
       "BasePath": "_content/BlazorApp1",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -150,13 +150,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
       "SourceId": "BlazorApp1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\wwwroot\\",
+      "ContentRoot": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/wwwroot/",
       "BasePath": "_content/BlazorApp1",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -167,13 +167,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.eot"
     },
     {
-      "Identity": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
       "SourceId": "BlazorApp1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\wwwroot\\",
+      "ContentRoot": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/wwwroot/",
       "BasePath": "_content/BlazorApp1",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -184,13 +184,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.otf"
     },
     {
-      "Identity": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
       "SourceId": "BlazorApp1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\wwwroot\\",
+      "ContentRoot": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/wwwroot/",
       "BasePath": "_content/BlazorApp1",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -201,13 +201,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.svg"
     },
     {
-      "Identity": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
       "SourceId": "BlazorApp1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\wwwroot\\",
+      "ContentRoot": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/wwwroot/",
       "BasePath": "_content/BlazorApp1",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -218,13 +218,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.ttf"
     },
     {
-      "Identity": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
       "SourceId": "BlazorApp1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\wwwroot\\",
+      "ContentRoot": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/wwwroot/",
       "BasePath": "_content/BlazorApp1",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -235,13 +235,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/font/fonts/open-iconic.woff"
     },
     {
-      "Identity": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/wwwroot/css/open-iconic/ICON-LICENSE",
       "SourceId": "BlazorApp1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\wwwroot\\",
+      "ContentRoot": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/wwwroot/",
       "BasePath": "_content/BlazorApp1",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -252,13 +252,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/ICON-LICENSE"
     },
     {
-      "Identity": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/wwwroot/css/open-iconic/README.md",
       "SourceId": "BlazorApp1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\wwwroot\\",
+      "ContentRoot": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/wwwroot/",
       "BasePath": "_content/BlazorApp1",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -269,13 +269,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
+      "OriginalItemSpec": "wwwroot/css/open-iconic/README.md"
     },
     {
-      "Identity": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\wwwroot\\css\\site.css",
+      "Identity": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/wwwroot/css/site.css",
       "SourceId": "BlazorApp1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\wwwroot\\",
+      "ContentRoot": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/wwwroot/",
       "BasePath": "_content/BlazorApp1",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -286,13 +286,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
+      "OriginalItemSpec": "wwwroot/css/site.css"
     },
     {
-      "Identity": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\wwwroot\\favicon.ico",
+      "Identity": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/wwwroot/favicon.ico",
       "SourceId": "BlazorApp1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\wwwroot\\",
+      "ContentRoot": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/wwwroot/",
       "BasePath": "_content/BlazorApp1",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -303,13 +303,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\favicon.ico"
+      "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
-      "Identity": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\wwwroot\\images\\Spider-Man.png",
+      "Identity": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/wwwroot/images/Spider-Man.png",
       "SourceId": "BlazorApp1",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\wwwroot\\",
+      "ContentRoot": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/wwwroot/",
       "BasePath": "_content/BlazorApp1",
       "RelativePath": "images/Spider-Man.png",
       "AssetKind": "All",
@@ -320,7 +320,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\Spider-Man.png"
+      "OriginalItemSpec": "wwwroot/images/Spider-Man.png"
     }
   ]
 }

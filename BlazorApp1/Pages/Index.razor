@@ -2,6 +2,8 @@
 @using BlazorApp1.Module
 @using System.Net
 @using Newtonsoft.Json
+@using System.Collections
+@using Newtonsoft.Json.Linq
 @inject Microsoft.AspNetCore.Components.NavigationManager navigationManager
 
 
@@ -10,8 +12,10 @@
 <MudLayout>
     <MudContainer Class="mt-16 px-8" MaxWidth="MaxWidth.False">
         <MudGrid>
+            
+           
             <MudItem xs="6" sm="2">
-                <MudButton OnClick="@(()=>MovieDetails("tt10872600"))">
+                <MudButton OnClick="@(() => MovieDetails("tt10872600"))">
                     <MudPaper Elevation="2" Class="pa-4" Style="height: 300px; width: 180px">
                         <MudImage Src="https://image.tmdb.org/t/p/w200/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg" Fluid="true" Alt="Spider-Man: No Way Home" Elevation="25" Class="rounded-lg"/>
                         <MudText Align="Align.Center">Spider-Man: No Way Home</MudText>
@@ -20,11 +24,11 @@
             </MudItem>
             <MudItem xs="6" sm="2">
                 <MudButton >
-                                    <MudPaper Elevation="2" Class="pa-4" Style="height: 300px; width: 180px">
-                                        <MudImage Src="https://image.tmdb.org/t/p/w200/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg" Fluid="true" Alt="Spider-Man: No Way Home" Elevation="25" Class="rounded-lg"/>
-                                        <MudText Align="Align.Center">Spider-Man: No Way Home</MudText>
-                                    </MudPaper>
-                                </MudButton>
+                    <MudPaper Elevation="2" Class="pa-4" Style="height: 300px; width: 180px">
+                        <MudImage Src="https://image.tmdb.org/t/p/w200/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg" Fluid="true" Alt="Spider-Man: No Way Home" Elevation="25" Class="rounded-lg"/>
+                        <MudText Align="Align.Center">Spider-Man: No Way Home</MudText>
+                    </MudPaper>
+                </MudButton>
             </MudItem>
             <MudItem xs="6" sm="2">
                 <MudPaper Elevation="2" Class="pa-4" Style="height: 300px; width: 180px">
@@ -56,12 +60,50 @@
 </MudLayout>
 
 @code {
-    
-    
+
+
     //Deserializes the JSON and puts it in the MovieEntity object
-    //TODO move this method to MovieDetails and only have navigationManager in here
+    //TODO move this method to MovieDetails and only have navigationManager in her
+
     void MovieDetails(string id)
     {
         navigationManager.NavigateTo($"MovieDetails/{id}");
     }
+
+
+    protected override void OnParametersSet()
+    {
+        MovieListMethod();
+
+    }
+
+    private void MovieListMethod()
+    {
+        List<MovieEntity> movies = new();
+        WebClient atv = new WebClient();
+        var data = atv.DownloadString("https://api.themoviedb.org/3/trending/movie/week?api_key=a5ab4805002668ee4999f8bac7a4691d");
+        var resultObjects = AllChildren(JObject.Parse(data))
+            .First(c => c.Type == JTokenType.Array && c.Path.Contains("results"))
+            .Children<JObject>();
+
+        foreach (JObject result in resultObjects) {
+            foreach (JProperty property in result.Properties()) {
+                
+                var obj = JsonConvert.DeserializeObject<MovieEntity>(property.ToString());
+                movies.Add(obj);
+                Console.WriteLine(obj.title);
+            }
+        }
+        
+    }
+    private static IEnumerable<JToken> AllChildren(JToken json)
+    {
+        foreach (var c in json.Children()) {
+            yield return c;
+            foreach (var cc in AllChildren(c)) {
+                yield return cc;
+            }
+        }
+    }
+
 }

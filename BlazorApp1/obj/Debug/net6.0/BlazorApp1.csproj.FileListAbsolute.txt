@@ -1,112 +1,160 @@
-C:\Users\mainh\RiderProjects\BlazorApp1\BlazorApp1\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\mainh\RiderProjects\BlazorApp1\BlazorApp1\bin\Debug\net6.0\appsettings.json
-C:\Users\mainh\RiderProjects\BlazorApp1\BlazorApp1\bin\Debug\net6.0\BlazorApp1.staticwebassets.runtime.json
-C:\Users\mainh\RiderProjects\BlazorApp1\BlazorApp1\bin\Debug\net6.0\BlazorApp1.exe
-C:\Users\mainh\RiderProjects\BlazorApp1\BlazorApp1\bin\Debug\net6.0\BlazorApp1.deps.json
-C:\Users\mainh\RiderProjects\BlazorApp1\BlazorApp1\bin\Debug\net6.0\BlazorApp1.runtimeconfig.json
-C:\Users\mainh\RiderProjects\BlazorApp1\BlazorApp1\bin\Debug\net6.0\BlazorApp1.dll
-C:\Users\mainh\RiderProjects\BlazorApp1\BlazorApp1\bin\Debug\net6.0\BlazorApp1.pdb
-C:\Users\mainh\RiderProjects\BlazorApp1\BlazorApp1\obj\Debug\net6.0\BlazorApp1.csproj.AssemblyReference.cache
-C:\Users\mainh\RiderProjects\BlazorApp1\BlazorApp1\obj\Debug\net6.0\BlazorApp1.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\mainh\RiderProjects\BlazorApp1\BlazorApp1\obj\Debug\net6.0\BlazorApp1.AssemblyInfoInputs.cache
-C:\Users\mainh\RiderProjects\BlazorApp1\BlazorApp1\obj\Debug\net6.0\BlazorApp1.AssemblyInfo.cs
-C:\Users\mainh\RiderProjects\BlazorApp1\BlazorApp1\obj\Debug\net6.0\BlazorApp1.csproj.CoreCompileInputs.cache
-C:\Users\mainh\RiderProjects\BlazorApp1\BlazorApp1\obj\Debug\net6.0\BlazorApp1.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\mainh\RiderProjects\BlazorApp1\BlazorApp1\obj\Debug\net6.0\BlazorApp1.RazorAssemblyInfo.cache
-C:\Users\mainh\RiderProjects\BlazorApp1\BlazorApp1\obj\Debug\net6.0\BlazorApp1.RazorAssemblyInfo.cs
-C:\Users\mainh\RiderProjects\BlazorApp1\BlazorApp1\obj\Debug\net6.0\staticwebassets.build.json
-C:\Users\mainh\RiderProjects\BlazorApp1\BlazorApp1\obj\Debug\net6.0\staticwebassets.development.json
-C:\Users\mainh\RiderProjects\BlazorApp1\BlazorApp1\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
-C:\Users\mainh\RiderProjects\BlazorApp1\BlazorApp1\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
-C:\Users\mainh\RiderProjects\BlazorApp1\BlazorApp1\obj\Debug\net6.0\scopedcss\bundle\BlazorApp1.styles.css
-C:\Users\mainh\RiderProjects\BlazorApp1\BlazorApp1\obj\Debug\net6.0\scopedcss\projectbundle\BlazorApp1.bundle.scp.css
-C:\Users\mainh\RiderProjects\BlazorApp1\BlazorApp1\obj\Debug\net6.0\BlazorApp1.dll
-C:\Users\mainh\RiderProjects\BlazorApp1\BlazorApp1\obj\Debug\net6.0\refint\BlazorApp1.dll
-C:\Users\mainh\RiderProjects\BlazorApp1\BlazorApp1\obj\Debug\net6.0\BlazorApp1.pdb
-C:\Users\mainh\RiderProjects\BlazorApp1\BlazorApp1\obj\Debug\net6.0\BlazorApp1.genruntimeconfig.cache
-C:\Users\mainh\RiderProjects\BlazorApp1\BlazorApp1\obj\Debug\net6.0\ref\BlazorApp1.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\bin\Debug\net6.0\appsettings.Development.json
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\bin\Debug\net6.0\appsettings.json
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\bin\Debug\net6.0\BlazorApp1.staticwebassets.runtime.json
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\bin\Debug\net6.0\BlazorApp1.exe
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\bin\Debug\net6.0\BlazorApp1.deps.json
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\bin\Debug\net6.0\BlazorApp1.runtimeconfig.json
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\bin\Debug\net6.0\BlazorApp1.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\bin\Debug\net6.0\BlazorApp1.pdb
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.JSInterop.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\bin\Debug\net6.0\MudBlazor.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\bin\Debug\net6.0\System.IO.Pipelines.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\obj\Debug\net6.0\BlazorApp1.csproj.AssemblyReference.cache
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\obj\Debug\net6.0\BlazorApp1.GeneratedMSBuildEditorConfig.editorconfig
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\obj\Debug\net6.0\BlazorApp1.AssemblyInfoInputs.cache
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\obj\Debug\net6.0\BlazorApp1.AssemblyInfo.cs
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\obj\Debug\net6.0\BlazorApp1.csproj.CoreCompileInputs.cache
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\obj\Debug\net6.0\BlazorApp1.MvcApplicationPartsAssemblyInfo.cache
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\obj\Debug\net6.0\BlazorApp1.RazorAssemblyInfo.cache
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\obj\Debug\net6.0\BlazorApp1.RazorAssemblyInfo.cs
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\obj\Debug\net6.0\staticwebassets.build.json
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\obj\Debug\net6.0\staticwebassets.development.json
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\obj\Debug\net6.0\scopedcss\bundle\BlazorApp1.styles.css
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\obj\Debug\net6.0\scopedcss\projectbundle\BlazorApp1.bundle.scp.css
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\obj\Debug\net6.0\BlazorApp1.csproj.CopyComplete
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\obj\Debug\net6.0\BlazorApp1.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\obj\Debug\net6.0\refint\BlazorApp1.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\obj\Debug\net6.0\BlazorApp1.pdb
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\obj\Debug\net6.0\BlazorApp1.genruntimeconfig.cache
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\BlazorApp1\obj\Debug\net6.0\ref\BlazorApp1.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\appsettings.Development.json
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\appsettings.json
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\BlazorApp1.staticwebassets.runtime.json
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\BlazorApp1.exe
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\BlazorApp1.deps.json
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\BlazorApp1.runtimeconfig.json
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\BlazorApp1.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\BlazorApp1.pdb
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.AspNetCore.Metadata.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.JSInterop.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\MudBlazor.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\System.IO.Pipelines.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\obj\Debug\net6.0\BlazorApp1.csproj.AssemblyReference.cache
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\obj\Debug\net6.0\BlazorApp1.GeneratedMSBuildEditorConfig.editorconfig
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\obj\Debug\net6.0\BlazorApp1.AssemblyInfoInputs.cache
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\obj\Debug\net6.0\BlazorApp1.AssemblyInfo.cs
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\obj\Debug\net6.0\BlazorApp1.csproj.CoreCompileInputs.cache
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\obj\Debug\net6.0\BlazorApp1.MvcApplicationPartsAssemblyInfo.cache
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\obj\Debug\net6.0\BlazorApp1.RazorAssemblyInfo.cache
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\obj\Debug\net6.0\BlazorApp1.RazorAssemblyInfo.cs
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\obj\Debug\net6.0\staticwebassets.build.json
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\obj\Debug\net6.0\staticwebassets.development.json
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\obj\Debug\net6.0\scopedcss\bundle\BlazorApp1.styles.css
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\obj\Debug\net6.0\scopedcss\projectbundle\BlazorApp1.bundle.scp.css
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\obj\Debug\net6.0\BlazorApp1.csproj.CopyComplete
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\obj\Debug\net6.0\BlazorApp1.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\obj\Debug\net6.0\refint\BlazorApp1.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\obj\Debug\net6.0\BlazorApp1.pdb
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\obj\Debug\net6.0\BlazorApp1.genruntimeconfig.cache
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\obj\Debug\net6.0\ref\BlazorApp1.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\System.Web.Extensions.dll
-D:\UNIfiles\SEP6\testing projects\SEP6_movies\SEP6_movies\BlazorApp1\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:/Users/mainh/RiderProjects/BlazorApp1/BlazorApp1/bin/Debug/net6.0/appsettings.Development.json
+C:/Users/mainh/RiderProjects/BlazorApp1/BlazorApp1/bin/Debug/net6.0/appsettings.json
+C:/Users/mainh/RiderProjects/BlazorApp1/BlazorApp1/bin/Debug/net6.0/BlazorApp1.staticwebassets.runtime.json
+C:/Users/mainh/RiderProjects/BlazorApp1/BlazorApp1/bin/Debug/net6.0/BlazorApp1.exe
+C:/Users/mainh/RiderProjects/BlazorApp1/BlazorApp1/bin/Debug/net6.0/BlazorApp1.deps.json
+C:/Users/mainh/RiderProjects/BlazorApp1/BlazorApp1/bin/Debug/net6.0/BlazorApp1.runtimeconfig.json
+C:/Users/mainh/RiderProjects/BlazorApp1/BlazorApp1/bin/Debug/net6.0/BlazorApp1.dll
+C:/Users/mainh/RiderProjects/BlazorApp1/BlazorApp1/bin/Debug/net6.0/BlazorApp1.pdb
+C:/Users/mainh/RiderProjects/BlazorApp1/BlazorApp1/obj/Debug/net6.0/BlazorApp1.csproj.AssemblyReference.cache
+C:/Users/mainh/RiderProjects/BlazorApp1/BlazorApp1/obj/Debug/net6.0/BlazorApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/mainh/RiderProjects/BlazorApp1/BlazorApp1/obj/Debug/net6.0/BlazorApp1.AssemblyInfoInputs.cache
+C:/Users/mainh/RiderProjects/BlazorApp1/BlazorApp1/obj/Debug/net6.0/BlazorApp1.AssemblyInfo.cs
+C:/Users/mainh/RiderProjects/BlazorApp1/BlazorApp1/obj/Debug/net6.0/BlazorApp1.csproj.CoreCompileInputs.cache
+C:/Users/mainh/RiderProjects/BlazorApp1/BlazorApp1/obj/Debug/net6.0/BlazorApp1.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/mainh/RiderProjects/BlazorApp1/BlazorApp1/obj/Debug/net6.0/BlazorApp1.RazorAssemblyInfo.cache
+C:/Users/mainh/RiderProjects/BlazorApp1/BlazorApp1/obj/Debug/net6.0/BlazorApp1.RazorAssemblyInfo.cs
+C:/Users/mainh/RiderProjects/BlazorApp1/BlazorApp1/obj/Debug/net6.0/staticwebassets.build.json
+C:/Users/mainh/RiderProjects/BlazorApp1/BlazorApp1/obj/Debug/net6.0/staticwebassets.development.json
+C:/Users/mainh/RiderProjects/BlazorApp1/BlazorApp1/obj/Debug/net6.0/scopedcss/Shared/MainLayout.razor.rz.scp.css
+C:/Users/mainh/RiderProjects/BlazorApp1/BlazorApp1/obj/Debug/net6.0/scopedcss/Shared/NavMenu.razor.rz.scp.css
+C:/Users/mainh/RiderProjects/BlazorApp1/BlazorApp1/obj/Debug/net6.0/scopedcss/bundle/BlazorApp1.styles.css
+C:/Users/mainh/RiderProjects/BlazorApp1/BlazorApp1/obj/Debug/net6.0/scopedcss/projectbundle/BlazorApp1.bundle.scp.css
+C:/Users/mainh/RiderProjects/BlazorApp1/BlazorApp1/obj/Debug/net6.0/BlazorApp1.dll
+C:/Users/mainh/RiderProjects/BlazorApp1/BlazorApp1/obj/Debug/net6.0/refint/BlazorApp1.dll
+C:/Users/mainh/RiderProjects/BlazorApp1/BlazorApp1/obj/Debug/net6.0/BlazorApp1.pdb
+C:/Users/mainh/RiderProjects/BlazorApp1/BlazorApp1/obj/Debug/net6.0/BlazorApp1.genruntimeconfig.cache
+C:/Users/mainh/RiderProjects/BlazorApp1/BlazorApp1/obj/Debug/net6.0/ref/BlazorApp1.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/bin/Debug/net6.0/appsettings.Development.json
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/bin/Debug/net6.0/appsettings.json
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/bin/Debug/net6.0/BlazorApp1.staticwebassets.runtime.json
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/bin/Debug/net6.0/BlazorApp1.exe
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/bin/Debug/net6.0/BlazorApp1.deps.json
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/bin/Debug/net6.0/BlazorApp1.runtimeconfig.json
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/bin/Debug/net6.0/BlazorApp1.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/bin/Debug/net6.0/BlazorApp1.pdb
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.AspNetCore.Authorization.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.AspNetCore.Components.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Forms.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Web.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.AspNetCore.Metadata.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.JSInterop.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/bin/Debug/net6.0/MudBlazor.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/bin/Debug/net6.0/System.IO.Pipelines.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.csproj.AssemblyReference.cache
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.AssemblyInfoInputs.cache
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.AssemblyInfo.cs
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.csproj.CoreCompileInputs.cache
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.MvcApplicationPartsAssemblyInfo.cache
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.RazorAssemblyInfo.cache
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.RazorAssemblyInfo.cs
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/obj/Debug/net6.0/staticwebassets.build.json
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/obj/Debug/net6.0/staticwebassets.development.json
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/obj/Debug/net6.0/scopedcss/Shared/MainLayout.razor.rz.scp.css
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/obj/Debug/net6.0/scopedcss/Shared/NavMenu.razor.rz.scp.css
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/obj/Debug/net6.0/scopedcss/bundle/BlazorApp1.styles.css
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/obj/Debug/net6.0/scopedcss/projectbundle/BlazorApp1.bundle.scp.css
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.csproj.CopyComplete
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/obj/Debug/net6.0/refint/BlazorApp1.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.pdb
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.genruntimeconfig.cache
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/BlazorApp1/obj/Debug/net6.0/ref/BlazorApp1.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/bin/Debug/net6.0/appsettings.Development.json
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/bin/Debug/net6.0/appsettings.json
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/bin/Debug/net6.0/BlazorApp1.staticwebassets.runtime.json
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/bin/Debug/net6.0/BlazorApp1.exe
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/bin/Debug/net6.0/BlazorApp1.deps.json
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/bin/Debug/net6.0/BlazorApp1.runtimeconfig.json
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/bin/Debug/net6.0/BlazorApp1.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/bin/Debug/net6.0/BlazorApp1.pdb
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.AspNetCore.Authorization.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.AspNetCore.Components.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Forms.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Web.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.AspNetCore.Metadata.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.JSInterop.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/bin/Debug/net6.0/MudBlazor.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/bin/Debug/net6.0/System.IO.Pipelines.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.csproj.AssemblyReference.cache
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.AssemblyInfoInputs.cache
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.AssemblyInfo.cs
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.csproj.CoreCompileInputs.cache
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.MvcApplicationPartsAssemblyInfo.cache
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.RazorAssemblyInfo.cache
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.RazorAssemblyInfo.cs
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/obj/Debug/net6.0/staticwebassets.build.json
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/obj/Debug/net6.0/staticwebassets.development.json
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/obj/Debug/net6.0/scopedcss/Shared/MainLayout.razor.rz.scp.css
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/obj/Debug/net6.0/scopedcss/Shared/NavMenu.razor.rz.scp.css
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/obj/Debug/net6.0/scopedcss/bundle/BlazorApp1.styles.css
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/obj/Debug/net6.0/scopedcss/projectbundle/BlazorApp1.bundle.scp.css
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.csproj.CopyComplete
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/obj/Debug/net6.0/refint/BlazorApp1.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.pdb
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.genruntimeconfig.cache
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/obj/Debug/net6.0/ref/BlazorApp1.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/bin/Debug/net6.0/System.Web.Extensions.dll
+D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/bin/Debug/net6.0/appsettings.Development.json
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/bin/Debug/net6.0/appsettings.json
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/bin/Debug/net6.0/BlazorApp1.staticwebassets.runtime.json
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/bin/Debug/net6.0/BlazorApp1
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/bin/Debug/net6.0/BlazorApp1.deps.json
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/bin/Debug/net6.0/BlazorApp1.runtimeconfig.json
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/bin/Debug/net6.0/BlazorApp1.dll
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/bin/Debug/net6.0/BlazorApp1.pdb
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.AspNetCore.Authorization.dll
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.AspNetCore.Components.dll
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Forms.dll
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.AspNetCore.Components.Web.dll
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.AspNetCore.Metadata.dll
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.Extensions.Logging.dll
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Microsoft.JSInterop.dll
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/bin/Debug/net6.0/MudBlazor.dll
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/bin/Debug/net6.0/System.IO.Pipelines.dll
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/bin/Debug/net6.0/System.Web.Extensions.dll
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.csproj.AssemblyReference.cache
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.AssemblyInfoInputs.cache
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.AssemblyInfo.cs
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.csproj.CoreCompileInputs.cache
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.MvcApplicationPartsAssemblyInfo.cache
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.RazorAssemblyInfo.cache
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.RazorAssemblyInfo.cs
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/obj/Debug/net6.0/staticwebassets.build.json
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/obj/Debug/net6.0/staticwebassets.development.json
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/obj/Debug/net6.0/scopedcss/Shared/MainLayout.razor.rz.scp.css
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/obj/Debug/net6.0/scopedcss/Shared/NavMenu.razor.rz.scp.css
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/obj/Debug/net6.0/scopedcss/bundle/BlazorApp1.styles.css
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/obj/Debug/net6.0/scopedcss/projectbundle/BlazorApp1.bundle.scp.css
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.csproj.CopyComplete
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.dll
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/obj/Debug/net6.0/refint/BlazorApp1.dll
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.pdb
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/obj/Debug/net6.0/BlazorApp1.genruntimeconfig.cache
+/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/obj/Debug/net6.0/ref/BlazorApp1.dll

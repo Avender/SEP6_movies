@@ -6,6 +6,7 @@ namespace BlazorApp1.Module;
 [Serializable]
 public class MovieEntity
 {
+    
     [JsonProperty("title")]
     public string title { get; set; }
     [JsonProperty("genre")]
