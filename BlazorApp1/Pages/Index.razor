@@ -13,30 +13,31 @@
 <MudLayout>
     <MudContainer Class="mt-16 px-8" MaxWidth="MaxWidth.False">
         <MudGrid>
-            @foreach (var item in @movies)
+            @foreach (var item in movies)
             {
-                string poster = "https://image.tmdb.org/t/p/w200" + @item.poster_path;
-                <MudItem xs="6" sm="2">
-                    <MudButton>
-                        <MudPaper Elevation="2" Class="pa-4" Style="height: 300px; width: 180px">
-                            <MudImage Src="@poster" Fluid="true" Alt="@item.title" Elevation="25" Class="rounded-lg"/>
-                            <MudText Align="Align.Center">"@item.title"</MudText>
-                        </MudPaper>
-                    </MudButton>
-                </MudItem>
+                string poster="https://image.tmdb.org/t/p/w200"+@item.PosterPath;
+              <MudItem xs="6" sm="2">
+                             <MudButton OnClick="@(()=>MovieDetails(@item.Id))">
+                                  <MudPaper Elevation="2" Class="pa-4" Style="height: 300px; width: 180px">
+                                      <MudImage Src="@poster" Fluid="true" Alt=@item.Title Elevation="25" Class="rounded-lg"/>
+                                      <MudText Align="Align.Center">@item.Title</MudText>
+                                  </MudPaper>
+                              </MudButton>
+                          </MudItem>
             }
-
+            
         </MudGrid>
     </MudContainer>
 </MudLayout>
 
 @code {
-    List<MovieEntity> movies = new();
+    List<Movie> movies = new();
+    
 
     //Deserializes the JSON and puts it in the MovieEntity object
     //TODO move this method to MovieDetails and only have navigationManager in her
 
-    void MovieDetails(string id)
+    void MovieDetails(int id)
     {
         navigationManager.NavigateTo($"MovieDetails/{id}");
     }
@@ -45,31 +46,36 @@
     protected override void OnParametersSet()
     {
         MovieListMethod();
+
     }
 
     private void MovieListMethod()
     {
+        
         WebClient atv = new WebClient();
         var data = atv.DownloadString("https://api.themoviedb.org/3/trending/movie/week?api_key=a5ab4805002668ee4999f8bac7a4691d");
         var resultObjects = AllChildren(JObject.Parse(data))
             .First(c => c.Type == JTokenType.Array && c.Path.Contains("results"))
             .Children<JObject>();
 
-        foreach (JObject result in resultObjects)
-        {
-            var obj = JsonConvert.DeserializeObject<MovieEntity>(result.ToString());
-            movies.Add(obj);
-            Console.WriteLine(obj.poster_path);
+        foreach (JObject result in resultObjects) {
+            
+                
+                var obj = JsonConvert.DeserializeObject<Movie>(result.ToString());
+                movies.Add(obj);
+                
+                Console.WriteLine(obj.PosterPath);
+            
+            
         }
+        
     }
-
+    
     private static IEnumerable<JToken> AllChildren(JToken json)
     {
-        foreach (var c in json.Children())
-        {
+        foreach (var c in json.Children()) {
             yield return c;
-            foreach (var cc in AllChildren(c))
-            {
+            foreach (var cc in AllChildren(c)) {
                 yield return cc;
             }
         }
