@@ -43,7 +43,7 @@
             </MudItem>
             <MudItem xs="6" sm="2">
                 <MudPaper Elevation="2" Class="pa-4" Style="height: 300px; width: 180px" Href="/spider">
-                    <MudImage Src="images/Spider-Man.png" Fluid="true" Alt="Spider-Man: No Way Home" Elevation="25" Class="rounded-lg"/>
+                    <MudImage id="asdas" Src="images/Spider-Man.png" Fluid="true" Alt="Spider-Man: No Way Home" Elevation="25" Class="rounded-lg"/>
                 </MudPaper>
             </MudItem>
             <MudItem xs="6" sm="2">
@@ -62,13 +62,6 @@
     //TODO move this method to MovieDetails and only have navigationManager in here
     void MovieDetails(string id)
     {
-        string url = "https://api.themoviedb.org/3/movie/"+id+"?api_key=a5ab4805002668ee4999f8bac7a4691d&language=en-US";
-        using (WebClient wc = new WebClient())
-        {
-            var json = wc.DownloadString(url);
-            var obj = JsonConvert.DeserializeObject<MovieEntity>(json);
-            navigationManager.NavigateTo($"MovieDetails/{id}");
-        }
-        
+        navigationManager.NavigateTo($"MovieDetails/{id}");
     }
 }

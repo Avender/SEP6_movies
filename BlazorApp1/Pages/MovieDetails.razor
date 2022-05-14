@@ -3,12 +3,13 @@
 @using Newtonsoft.Json
 @using BlazorApp1.Module
 <h3>MovieDetails</h3>
-<MudImage Src="https://image.tmdb.org/t/p/w200/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg" Fluid="true" Alt="Spider-Man: No Way Home" Elevation="25" Class="rounded-lg"/>
+<MudImage Src="@posterPath" Fluid="true" Alt="@posterTitle" Elevation="25" Class="rounded-lg"/>
 
 @code {
     [Parameter]
     public string Value { get; set; }
-    
+    public string posterPath { get; set; }
+    public string posterTitle { get; set; }
     
     protected override void OnParametersSet()
     {
@@ -20,8 +21,10 @@
         {
             var json = wc.DownloadString(url);
             var obj = JsonConvert.DeserializeObject<MovieEntity>(json);
-            Console.WriteLine("Title: "+obj.title);
-
+            Console.WriteLine("Title: "+obj.poster_path);
+            posterPath = "https://image.tmdb.org/t/p/w200" + obj.poster_path;
+            posterTitle = obj.title;
+            Console.WriteLine("Poster path: "+ posterPath);
         }
     }
     
