@@ -15,11 +15,12 @@
         <MudGrid>
             @foreach (var item in movies)
             {
+                string poster="https://image.tmdb.org/t/p/w200"+@item.PosterPath;
               <MudItem xs="6" sm="2">
-                              <MudButton>
+                             <MudButton OnClick="@(()=>MovieDetails(@item.Id))">
                                   <MudPaper Elevation="2" Class="pa-4" Style="height: 300px; width: 180px">
-                                      <MudImage Src="@item.BackdropPath.ToString()" Fluid="true" Alt="@item.Title" Elevation="25" Class="rounded-lg"/>
-                                      <MudText Align="Align.Center">"@item.Title"</MudText>
+                                      <MudImage Src="@poster" Fluid="true" Alt=@item.Title Elevation="25" Class="rounded-lg"/>
+                                      <MudText Align="Align.Center">@item.Title</MudText>
                                   </MudPaper>
                               </MudButton>
                           </MudItem>
@@ -31,11 +32,12 @@
 
 @code {
     List<Movie> movies = new();
+    
 
     //Deserializes the JSON and puts it in the MovieEntity object
     //TODO move this method to MovieDetails and only have navigationManager in her
 
-    void MovieDetails(string id)
+    void MovieDetails(int id)
     {
         navigationManager.NavigateTo($"MovieDetails/{id}");
     }
@@ -61,7 +63,8 @@
                 
                 var obj = JsonConvert.DeserializeObject<Movie>(result.ToString());
                 movies.Add(obj);
-                Console.WriteLine(obj.Title);
+                
+                Console.WriteLine(obj.PosterPath);
             
             
         }

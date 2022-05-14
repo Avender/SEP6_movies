@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
+using Newtonsoft.Json;
 
 namespace MoviesFunction.Models
 {
@@ -9,11 +10,11 @@ namespace MoviesFunction.Models
             [JsonPropertyName("adult")]
             public bool Adult;
 
-            [JsonPropertyName("backdrop_path")]
-            public object BackdropPath;
+            [JsonPropertyName("backdropPath")]
+            public String BackdropPath;
 
             [JsonPropertyName("belongs_to_collection")]
-            public object BelongsToCollection;
+            public String BelongsToCollection;
 
             [JsonPropertyName("budget")]
             public int Budget;
@@ -38,12 +39,12 @@ namespace MoviesFunction.Models
 
             [JsonPropertyName("overview")]
             public string Overview;
-
+            
+            [JsonProperty("poster_path")]
+            public String PosterPath;
+            
             [JsonPropertyName("popularity")]
             public double Popularity;
-
-            [JsonPropertyName("poster_path")]
-            public object PosterPath;
 
             [JsonPropertyName("production_companies")]
             public List<ProductionCompany> ProductionCompanies;
