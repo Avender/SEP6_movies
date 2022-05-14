@@ -11,7 +11,7 @@ namespace MoviesFunction.Models
 
             [JsonPropertyName("backdrop_path")]
             public object BackdropPath;
-
+            
             [JsonPropertyName("belongs_to_collection")]
             public object BelongsToCollection;
 
@@ -20,7 +20,7 @@ namespace MoviesFunction.Models
 
             [JsonPropertyName("genres")]
             public List<Genre> Genres;
-
+            
             [JsonPropertyName("homepage")]
             public string Homepage;
 
@@ -29,10 +29,10 @@ namespace MoviesFunction.Models
 
             [JsonPropertyName("imdb_id")]
             public string ImdbId;
-
+            
             [JsonPropertyName("original_language")]
             public string OriginalLanguage;
-
+            
             [JsonPropertyName("original_title")]
             public string OriginalTitle;
 
@@ -43,29 +43,29 @@ namespace MoviesFunction.Models
             public double Popularity;
 
             [JsonPropertyName("poster_path")]
-            public object PosterPath;
+            public string PosterPath;
 
             [JsonPropertyName("production_companies")]
             public List<ProductionCompany> ProductionCompanies;
-
+            
             [JsonPropertyName("production_countries")]
             public List<ProductionCountry> ProductionCountries;
-
+            
             [JsonPropertyName("release_date")]
             public string ReleaseDate;
-
+            
             [JsonPropertyName("revenue")]
             public int Revenue;
-
+            
             [JsonPropertyName("runtime")]
             public int Runtime;
-
+            
             [JsonPropertyName("spoken_languages")]
             public List<SpokenLanguage> SpokenLanguages;
-
+            
             [JsonPropertyName("status")]
             public string Status;
-
+            
             [JsonPropertyName("tagline")]
             public string Tagline;
 

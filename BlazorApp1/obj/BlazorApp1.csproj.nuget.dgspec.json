@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/BlazorApp1.csproj": {}
+    "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\BlazorApp1.csproj": {}
   },
   "projects": {
-    "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/BlazorApp1.csproj": {
+    "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\BlazorApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/BlazorApp1.csproj",
+        "projectUniqueName": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\BlazorApp1.csproj",
         "projectName": "BlazorApp1",
-        "projectPath": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/BlazorApp1.csproj",
-        "packagesPath": "/Users/macbookairandreea/.nuget/packages/",
-        "outputPath": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/obj/",
+        "projectPath": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\BlazorApp1.csproj",
+        "packagesPath": "C:\\Users\\Festis\\.nuget\\packages\\",
+        "outputPath": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/macbookairandreea/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Festis\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.203/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
