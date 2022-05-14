@@ -40,11 +40,6 @@ public class Genre
 {
     [JsonProperty("name")]
     public string name{ get; set; }
-
-    public void Test()
-    {
-        
-    }
 }
 
 public class Countries

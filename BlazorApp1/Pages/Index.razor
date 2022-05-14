@@ -1,7 +1,9 @@
 ﻿@page "/"
 @using BlazorApp1.Module
 @using System.Net
+@using Microsoft.AspNetCore.WebUtilities
 @using Newtonsoft.Json
+@using Newtonsoft.Json.Linq
 @inject Microsoft.AspNetCore.Components.NavigationManager navigationManager
 
 
@@ -11,20 +13,20 @@
     <MudContainer Class="mt-16 px-8" MaxWidth="MaxWidth.False">
         <MudGrid>
             <MudItem xs="6" sm="2">
-                <MudButton OnClick="@(()=>MovieDetails("tt10872600"))">
+                <MudButton OnClick="@(()=>MovieDetails("634649"))">
                     <MudPaper Elevation="2" Class="pa-4" Style="height: 300px; width: 180px">
                         <MudImage Src="https://image.tmdb.org/t/p/w200/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg" Fluid="true" Alt="Spider-Man: No Way Home" Elevation="25" Class="rounded-lg"/>
-                        <MudText Align="Align.Center">Spider-Man: No Way Home</MudText>
+                        <MudText id="@textId" Align="Align.Center">Spider-Man: No Way Home</MudText>
                     </MudPaper>
                 </MudButton>
             </MudItem>
             <MudItem xs="6" sm="2">
                 <MudButton >
-                                    <MudPaper Elevation="2" Class="pa-4" Style="height: 300px; width: 180px">
-                                        <MudImage Src="https://image.tmdb.org/t/p/w200/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg" Fluid="true" Alt="Spider-Man: No Way Home" Elevation="25" Class="rounded-lg"/>
-                                        <MudText Align="Align.Center">Spider-Man: No Way Home</MudText>
-                                    </MudPaper>
-                                </MudButton>
+                    <MudPaper Elevation="2" Class="pa-4" Style="height: 300px; width: 180px">
+                        <MudImage Src="https://image.tmdb.org/t/p/w200/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg" Fluid="true" Alt="Spider-Man: No Way Home" Elevation="25" Class="rounded-lg"/>
+                        <MudText Align="Align.Center">Spider-Man: No Way Home</MudText>
+                    </MudPaper>
+                </MudButton>
             </MudItem>
             <MudItem xs="6" sm="2">
                 <MudPaper Elevation="2" Class="pa-4" Style="height: 300px; width: 180px">
@@ -56,7 +58,7 @@
 </MudLayout>
 
 @code {
-    
+    private MudText textId;
     
     //Deserializes the JSON and puts it in the MovieEntity object
     //TODO move this method to MovieDetails and only have navigationManager in here
@@ -64,4 +66,60 @@
     {
         navigationManager.NavigateTo($"MovieDetails/{id}");
     }
+
+    protected override void OnInitialized()
+    {
+        string url = "https://api.themoviedb.org/3/movie/popular?api_key=a5ab4805002668ee4999f8bac7a4691d&language=en-US&page=1";
+        // using (WebClient client = new WebClient())
+        // using (Stream stream = client.OpenRead(url))
+        // using (StreamReader streamReader = new StreamReader(stream))
+        // using (JsonTextReader reader = new JsonTextReader(streamReader))
+        // {
+        //     reader.SupportMultipleContent = true;
+        //     Console.WriteLine("using statement: ");
+        //     var serializer = new JsonSerializer();
+        //     while (reader.Read())
+        //     {
+        //         //Console.WriteLine("while statement ");
+        //         if (reader.TokenType == JsonToken.StartObject)
+        //         {
+        //             //Console.WriteLine("in the if statement ");
+        //             //IList<MovieEntity> c = serializer.Deserialize<List<MovieEntity>>(reader);
+        //             //Console.WriteLine(c);
+        //         }
+        //     }
+        // }
+        using (WebClient wc = new WebClient())
+        {
+            var json = wc.DownloadString(url);
+            //var obj = JsonConvert.DeserializeObject<IList<MovieEntity>>(json);
+            JArray obj=JArray.Parse(json);
+            Console.WriteLine(obj.ToString());
+        }    
+        
+    
+    
+    // using (var reader=JsonTextReader.CreateFromUrl(url))
+        // {
+        //     //var json = wc.DownloadString(url);
+        //     IList<MovieEntity> popularMovies = new List<MovieEntity>();
+        //     //JsonTextReader reader = new JsonTextReader(new HttpRequestStreamReader(json));
+        //     reader.SupportMultipleContent = true;
+        //
+        //     while (true)
+        //     {
+        //         if (!reader.Read())
+        //         {
+        //             break;
+        //         }
+        //
+        //         
+        //         MovieEntity movie = JsonConvert.DeserializeObject<MovieEntity>(reader);
+        //
+        //         popularMovies.Add(movie);
+        //     }
+        //
+         }
+    }
+    
 }
