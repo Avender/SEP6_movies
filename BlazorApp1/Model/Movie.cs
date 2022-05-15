@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text.Json.Serialization;
+﻿
 using Newtonsoft.Json;
 
 namespace MoviesFunction.Models
@@ -14,7 +12,7 @@ namespace MoviesFunction.Models
             public String BackdropPath;
 
             [JsonProperty("belongs_to_collection")]
-            public String BelongsToCollection;
+            public BelongsToCollection MovieCollection;
 
             [JsonProperty("budget")]
             public int Budget;

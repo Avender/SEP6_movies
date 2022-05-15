@@ -1,16 +1,17 @@
 ﻿using System.Text.Json.Serialization;
+using Newtonsoft.Json;
 
 namespace MoviesFunction.Models
 {
     public class SpokenLanguage
     {
-        [JsonPropertyName("english_name")]
+        [JsonProperty("english_name")]
         public string EnglishName;
 
-        [JsonPropertyName("iso_639_1")]
+        [JsonProperty("iso_639_1")]
         public string Iso6391;
 
-        [JsonPropertyName("name")]
+        [JsonProperty("name")]
         public string Name;
     }
 }

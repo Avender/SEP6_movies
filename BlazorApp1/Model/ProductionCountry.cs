@@ -1,13 +1,14 @@
 ﻿using System.Text.Json.Serialization;
+using Newtonsoft.Json;
 
 namespace MoviesFunction.Models
 {
     public class ProductionCountry
     {
-        [JsonPropertyName("iso_3166_1")]
+        [JsonProperty("iso_3166_1")]
         public string Iso31661;
 
-        [JsonPropertyName("name")]
+        [JsonProperty("name")]
         public string Name;
     }
 }

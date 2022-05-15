@@ -1,19 +1,20 @@
 ﻿using System.Text.Json.Serialization;
+using Newtonsoft.Json;
 
 namespace MoviesFunction.Models
 {
     public class ProductionCompany
     {
-        [JsonPropertyName("id")]
+        [JsonProperty("id")]
         public int Id;
 
-        [JsonPropertyName("logo_path")]
+        [JsonProperty("logo_path")]
         public object LogoPath;
 
-        [JsonPropertyName("name")]
+        [JsonProperty("name")]
         public string Name;
 
-        [JsonPropertyName("origin_country")]
+        [JsonProperty("origin_country")]
         public string OriginCountry;
     }
 }

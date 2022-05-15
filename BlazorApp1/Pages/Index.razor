@@ -1,21 +1,18 @@
 ﻿@page "/"
-@using BlazorApp1.Module
 @using System.Net
 @using Newtonsoft.Json
-@using System.Collections
 @using MoviesFunction.Models
 @using Newtonsoft.Json.Linq
 @inject Microsoft.AspNetCore.Components.NavigationManager navigationManager
 
 
 <PageTitle>Index</PageTitle>
-@* "args => MovieDetails(spiderman)" *@
 <MudLayout>
     <MudContainer Class="mt-16 px-8" MaxWidth="MaxWidth.False">
         <MudGrid>
             @foreach (var item in movies)
             {
-                string poster="https://image.tmdb.org/t/p/w200"+@item.PosterPath;
+                var poster="https://image.tmdb.org/t/p/w200"+@item.PosterPath;
               <MudItem xs="6" sm="2">
                              <MudButton OnClick="@(()=>MovieDetails(@item.Id))">
                                   <MudPaper Elevation="2" Class="pa-4" Style="height: 300px; width: 180px">
@@ -33,10 +30,6 @@
 @code {
     List<Movie> movies = new();
     
-
-    //Deserializes the JSON and puts it in the MovieEntity object
-    //TODO move this method to MovieDetails and only have navigationManager in her
-
     void MovieDetails(int id)
     {
         navigationManager.NavigateTo($"MovieDetails/{id}");
@@ -46,7 +39,6 @@
     protected override void OnParametersSet()
     {
         MovieListMethod();
-
     }
 
     private void MovieListMethod()

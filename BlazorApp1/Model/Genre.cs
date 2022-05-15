@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Text.Json.Serialization;
+using Newtonsoft.Json;
 
 namespace MoviesFunction.Models
 {
 	public class Genre
 	{
 		
-            [JsonPropertyName("id")]
+            [JsonProperty("id")]
 			public int Id;
 
-			[JsonPropertyName("name")]
+			[JsonProperty("name")]
 			public string Name;
 		
 	}

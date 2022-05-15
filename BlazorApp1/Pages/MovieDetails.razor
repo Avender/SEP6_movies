@@ -1,7 +1,7 @@
 ﻿@page "/MovieDetails/{Value}"
 @using System.Net
 @using Newtonsoft.Json
-@using BlazorApp1.Module
+@using MoviesFunction.Models
 
 <MudLayout>
     <MudContainer Class="mt-16 px-8" MaxWidth="MaxWidth.False">
@@ -60,13 +60,13 @@
         using (WebClient wc = new WebClient())
         {
             var json = wc.DownloadString(url);
-            var obj = JsonConvert.DeserializeObject<MovieEntity>(json);
-            posterPath = "https://image.tmdb.org/t/p/w200" + obj.poster_path;
-            movieTitle = obj.title;
-            movieDescription = obj.overview;
-            runTime = obj.runtime + " min";
-            voteAverage = obj.vote_average + "/10";
-            releaseDate = obj.release_date;
+            var obj = JsonConvert.DeserializeObject<Movie>(json);
+            posterPath = "https://image.tmdb.org/t/p/w200" + obj.PosterPath;
+            movieTitle = obj.Title;
+            movieDescription = obj.Overview;
+            runTime = obj.Runtime + " min";
+            voteAverage = obj.VoteAverage + "/10";
+            releaseDate = obj.ReleaseDate;
         }
     }
     
