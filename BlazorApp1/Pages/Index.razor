@@ -59,14 +59,8 @@
             .Children<JObject>();
 
         foreach (JObject result in resultObjects) {
-            
-                
-                var obj = JsonConvert.DeserializeObject<Movie>(result.ToString());
+            var obj = JsonConvert.DeserializeObject<Movie>(result.ToString());
                 movies.Add(obj);
-                
-                Console.WriteLine(obj.BackdropPath);
-            
-            
         }
         
     }
