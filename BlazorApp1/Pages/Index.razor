@@ -3,33 +3,38 @@
 @using Newtonsoft.Json
 @using MoviesFunction.Models
 @using Newtonsoft.Json.Linq
+@using System.Collections
 @inject Microsoft.AspNetCore.Components.NavigationManager navigationManager
+<link rel="stylesheet" href="css/site.css"/>
 
 
 <PageTitle>Index</PageTitle>
+
 <MudLayout>
     <MudContainer Class="mt-16 px-8" MaxWidth="MaxWidth.False">
-        <MudGrid>
-            @foreach (var item in movies)
-            {
-                var poster="https://image.tmdb.org/t/p/w200"+@item.PosterPath;
-              <MudItem xs="6" sm="2">
-                             <MudButton OnClick="@(()=>MovieDetails(@item.Id))">
-                                  <MudPaper Elevation="2" Class="pa-4" Style="height: 300px; width: 180px">
-                                      <MudImage Src="@poster" Fluid="true" Alt=@item.Title Elevation="25" Class="rounded-lg"/>
-                                      <MudText Align="Align.Center">@item.Title</MudText>
-                                  </MudPaper>
-                              </MudButton>
-                          </MudItem>
-            }
+        
+        <div class="container" style="height: 310px">
             
-        </MudGrid>
+                @foreach (var item in movies)
+                {
+                    var poster = "https://image.tmdb.org/t/p/w200" + @item.PosterPath;
+
+                    <MudButton OnClick="@(() => MovieDetails(@item.Id))">
+                        <MudPaper Elevation="2" Class="pa-4" Style="height: 250px; width: 180px">
+                            <MudImage Src="@poster" Fluid="true" Alt=@item.Title Elevation="25" Class="rounded-lg"/>
+                        </MudPaper>
+                    </MudButton>
+                }
+            
+        </div>
+
+
     </MudContainer>
 </MudLayout>
 
 @code {
     List<Movie> movies = new();
-    
+
     void MovieDetails(int id)
     {
         navigationManager.NavigateTo($"MovieDetails/{id}");
@@ -43,28 +48,32 @@
 
     private void MovieListMethod()
     {
-        
         WebClient atv = new WebClient();
         var data = atv.DownloadString("https://api.themoviedb.org/3/trending/movie/week?api_key=a5ab4805002668ee4999f8bac7a4691d");
         var resultObjects = AllChildren(JObject.Parse(data))
             .First(c => c.Type == JTokenType.Array && c.Path.Contains("results"))
             .Children<JObject>();
 
-        foreach (JObject result in resultObjects) {
+        foreach (JObject result in resultObjects)
+        {
             var obj = JsonConvert.DeserializeObject<Movie>(result.ToString());
-                movies.Add(obj);
+            movies.Add(obj);
         }
-        
     }
-    
+
     private static IEnumerable<JToken> AllChildren(JToken json)
     {
-        foreach (var c in json.Children()) {
+        foreach (var c in json.Children())
+        {
             yield return c;
-            foreach (var cc in AllChildren(c)) {
+            foreach (var cc in AllChildren(c))
+            {
                 yield return cc;
             }
         }
     }
+
+    
+     
 
 }
