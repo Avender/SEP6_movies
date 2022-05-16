@@ -7,79 +7,79 @@ namespace MoviesFunction.Models
 {
 	public class Movie
 	{
-            [JsonPropertyName("adult")]
+            [JsonProperty("adult")]
             public bool Adult;
 
-            [JsonPropertyName("backdropPath")]
-            public String BackdropPath;
+            [JsonProperty("backdrop_Path")]
+            public string BackdropPath;
 
-            [JsonPropertyName("belongs_to_collection")]
-            public String BelongsToCollection;
+            [JsonProperty("belongs_to_collection")]
+            public string BelongsToCollection;
 
-            [JsonPropertyName("budget")]
+            [JsonProperty("budget")]
             public int Budget;
 
-            [JsonPropertyName("genres")]
+            [JsonProperty("genres")]
             public List<Genre> Genres;
 
-            [JsonPropertyName("homepage")]
+            [JsonProperty("homepage")]
             public string Homepage;
 
-            [JsonPropertyName("id")]
+            [JsonProperty("id")]
             public int Id;
 
-            [JsonPropertyName("imdb_id")]
+            [JsonProperty("imdb_id")]
             public string ImdbId;
 
-            [JsonPropertyName("original_language")]
+            [JsonProperty("original_language")]
             public string OriginalLanguage;
 
-            [JsonPropertyName("original_title")]
+            [JsonProperty("original_title")]
             public string OriginalTitle;
 
-            [JsonPropertyName("overview")]
+            [JsonProperty("overview")]
             public string Overview;
             
             [JsonProperty("poster_path")]
-            public String PosterPath;
+            public string PosterPath;
             
-            [JsonPropertyName("popularity")]
+            [JsonProperty("popularity")]
             public double Popularity;
 
-            [JsonPropertyName("production_companies")]
+            [JsonProperty("production_companies")]
             public List<ProductionCompany> ProductionCompanies;
 
-            [JsonPropertyName("production_countries")]
+            [JsonProperty("production_countries")]
             public List<ProductionCountry> ProductionCountries;
 
-            [JsonPropertyName("release_date")]
+            [JsonProperty("release_date")]
             public string ReleaseDate;
 
-            [JsonPropertyName("revenue")]
+            [JsonProperty("revenue")]
             public int Revenue;
 
-            [JsonPropertyName("runtime")]
+            [JsonProperty("runtime")]
             public int Runtime;
 
-            [JsonPropertyName("spoken_languages")]
+            [JsonProperty("spoken_languages")]
             public List<SpokenLanguage> SpokenLanguages;
 
-            [JsonPropertyName("status")]
+            [JsonProperty("status")]
             public string Status;
 
-            [JsonPropertyName("tagline")]
+            [JsonProperty("tagline")]
             public string Tagline;
 
-            [JsonPropertyName("title")]
+            [JsonProperty("title")]
             public string Title;
 
-            [JsonPropertyName("video")]
+            [JsonProperty("video")]
             public bool Video;
 
-            [JsonPropertyName("vote_average")]
+            [JsonProperty("vote_average")]
             public double VoteAverage;
 
-            [JsonPropertyName("vote_count")]
+            [JsonProperty("vote_count")]
             public int VoteCount;
         }
 }

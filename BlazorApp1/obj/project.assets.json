@@ -808,24 +808,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/macbookairandreea/.nuget/packages/": {}
+    "C:\\Users\\mainh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/BlazorApp1.csproj",
+      "projectUniqueName": "C:\\Users\\mainh\\RiderProjects\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
       "projectName": "BlazorApp1",
-      "projectPath": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/BlazorApp1.csproj",
-      "packagesPath": "/Users/macbookairandreea/.nuget/packages/",
-      "outputPath": "/Users/macbookairandreea/Documents/GitHub/SEP6_movies/BlazorApp1/obj/",
+      "projectPath": "C:\\Users\\mainh\\RiderProjects\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
+      "packagesPath": "C:\\Users\\mainh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mainh\\RiderProjects\\BlazorApp1\\BlazorApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/macbookairandreea/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\mainh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -875,7 +877,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.203/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
