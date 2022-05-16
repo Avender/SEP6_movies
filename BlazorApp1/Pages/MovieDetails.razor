@@ -7,49 +7,70 @@
 <MudLayout>
     <MudContainer Class="mt-16 px-8" MaxWidth="MaxWidth.False">
         <MudGrid>
-        <MudItem xs="12" sm="3">
-            <MudImage Width="300" Height="218" Src="@posterPath" Fluid="true" Alt="@movieTitle" Elevation="25" Class="rounded-lg"/>
-        </MudItem>
-        <MudItem xs="12" sm="9">
-            <MudCard>
-                <MudCardHeader>
-                    <CardHeaderContent>
-                        <MudText Typo="Typo.h5">
-                            @movieTitle
+            <MudItem xs="12" sm="3">
+                <MudImage Width="300" Height="218" Src="@posterPath" Fluid="true" Alt="@movieTitle" Elevation="25" Class="rounded-lg"/>
+            </MudItem>
+            <MudItem xs="12" sm="9">
+                <MudCard>
+                    <MudCardHeader>
+                        <CardHeaderContent>
+                            <MudText Typo="Typo.h5">
+                                @movieTitle
+                            </MudText>
+                        </CardHeaderContent>
+                    </MudCardHeader>
+                    <MudCardContent>
+                        <div>
+                            <span >
+                                <MudButton Variant="Variant.Filled" Style="@($"color:{Colors.LightGreen.Accent3}; background:{Colors.BlueGrey.Darken4};")" Size="Size.Small">
+                                    @voteAverage
+                                </MudButton>
+                            </span>
+                            <span>
+                                <MudButton Variant="Variant.Filled" Style="@($"color:{Colors.LightGreen.Accent3}; background:{Colors.BlueGrey.Darken4};")" Size="Size.Small">
+                                    @runTime
+                                </MudButton>
+                            </span>
+                        </div>
+                        <MudText Class="pt-2">
+                            @movieDescription
                         </MudText>
-                    </CardHeaderContent>
-                </MudCardHeader>
-                <MudCardContent>
-                    <div>
-                        <span >
-                            <MudButton Variant="Variant.Filled" Style="@($"color:{Colors.LightGreen.Accent3}; background:{Colors.BlueGrey.Darken4};")" Size="Size.Small">
-                                @voteAverage
-                            </MudButton>
-                        </span>
-                        <span>
-                            <MudButton Variant="Variant.Filled" Style="@($"color:{Colors.LightGreen.Accent3}; background:{Colors.BlueGrey.Darken4};")" Size="Size.Small">
-                                @runTime
-                            </MudButton>
-                        </span>
-                    </div>
-                    <MudText Class="pt-2">
-                        @movieDescription
-                    </MudText>
-                    <MudText Class="pt-2"><span class="pr-5">Country:</span><span>@countryName</span></MudText>
-                    <MudText Class="pt-2"><span class="pr-5">Genre:</span><span>@genre</span></MudText>
-                    <MudText Class="pt-2"><span class="pr-5">Released:</span><span>@releaseDate</span></MudText>
-                    <MudText Class="pt-2"><span class="pr-5">Production:</span><span>@productionCompanies</span></MudText>
-                    <MudText Class="pt-2"><span class="pr-5">Casts:</span><span>@cast</span></MudText>
-                </MudCardContent>
-            </MudCard>
-        </MudItem>
+                        <MudText Class="pt-2">
+                            <span class="pr-5">Country:</span><span>@countryName</span>
+                        </MudText>
+                        <MudText Class="pt-2">
+                            <span class="pr-5">Genre:</span><span>@genre</span>
+                        </MudText>
+                        <MudText Class="pt-2">
+                            <span class="pr-5">Released:</span><span>@releaseDate</span>
+                        </MudText>
+                        <MudText Class="pt-2">
+                            <span class="pr-5">Production:</span><span>@productionCompanies</span>
+                        </MudText>
+                        <MudText Class="pt-2">
+                            <span class="pr-5">Casts:</span>
+                            @for (int i = 0; i < 10; i++)
+                            {
+                                cast = people[i].name.ToString() + ", ";
+                                <button>
+                                    <span class="pr-2">
+                                        @cast
+                                    </span>
+                                </button>
+                            }
+                        </MudText>
+                    </MudCardContent>
+                </MudCard>
+            </MudItem>
         </MudGrid>
     </MudContainer>
 </MudLayout>
 
 @code {
+
     [Parameter]
     public string Value { get; set; }
+
     public string posterPath { get; set; }
     public string movieTitle { get; set; }
     public string movieDescription { get; set; }
@@ -75,7 +96,7 @@
 
     private void MovieDetailsApi(string id)
     {
-        string detailsUrl = "https://api.themoviedb.org/3/movie/"+id+"?api_key=a5ab4805002668ee4999f8bac7a4691d&language=en-US";
+        string detailsUrl = "https://api.themoviedb.org/3/movie/" + id + "?api_key=a5ab4805002668ee4999f8bac7a4691d&language=en-US";
         using (WebClient wc = new WebClient())
         {
             var json = wc.DownloadString(detailsUrl);
@@ -100,13 +121,12 @@
                 else
                 {
                     countryName = productionCountry[i].Name.ToString();
-
                 }
             }
-            // foreach (var countryVar in productionCountry)
-            // {
-            //     countryName = countryVar.Name.ToString();
-            // }
+    // foreach (var countryVar in productionCountry)
+    // {
+    //     countryName = countryVar.Name.ToString();
+    // }
 
             for (int i = 0; i < genres.Count; i++)
             {
@@ -117,13 +137,12 @@
                 else
                 {
                     genre += genres[i].Name.ToString();
-
                 }
             }
-            // foreach (var genreVar in genres)
-            // {
-            //     genre += genreVar.Name.ToString() + ", ";
-            // }
+    // foreach (var genreVar in genres)
+    // {
+    //     genre += genreVar.Name.ToString() + ", ";
+    // }
 
             for (int i = 0; i < productionCompanyList.Count; i++)
             {
@@ -134,13 +153,12 @@
                 else
                 {
                     productionCompanies += productionCompanyList[i].Name.ToString();
-
                 }
             }
-            // foreach (var companyVar in productionCompanyList)
-            // {
-            //     productionCompanies += companyVar.Name.ToString() + ", ";
-            // }
+    // foreach (var companyVar in productionCompanyList)
+    // {
+    //     productionCompanies += companyVar.Name.ToString() + ", ";
+    // }
         }
     }
 
@@ -154,32 +172,36 @@
                 .First(c => c.Type == JTokenType.Array && c.Path.Contains("cast"))
                 .Children<JObject>();
 
-            foreach (JObject result in resultObjects) {
+            foreach (JObject result in resultObjects)
+            {
                 var obj = JsonConvert.DeserializeObject<PeopleEntity>(result.ToString());
                 people.Add(obj);
             }
-            
-            for (int i = 0; i < 10; i++)
-            {
-                if (i < 9)
-                {
-                    cast += people[i].name.ToString() + ", ";
-                }
-                else
-                {
-                    cast += people[i].name.ToString();
-                }
-            }
+
+    // for (int i = 0; i < 10; i++)
+    // {
+    //     if (i < 9)
+    //     {
+    //         cast += people[i].name.ToString() + ", ";
+    //     }
+    //     else
+    //     {
+    //         cast += people[i].name.ToString();
+    //     }
+    // }
         }
     }
-    
+
     private static IEnumerable<JToken> AllChildren(JToken json)
     {
-        foreach (var c in json.Children()) {
+        foreach (var c in json.Children())
+        {
             yield return c;
-            foreach (var cc in AllChildren(c)) {
+            foreach (var cc in AllChildren(c))
+            {
                 yield return cc;
             }
         }
     }
+
 }
