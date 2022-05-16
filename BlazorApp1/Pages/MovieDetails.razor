@@ -1,15 +1,55 @@
 ﻿@page "/MovieDetails/{Value}"
 @using System.Net
 @using Newtonsoft.Json
-@using BlazorApp1.Module
-<h3>MovieDetails</h3>
-<MudImage Src="@posterPath" Fluid="true" Alt="@posterTitle" Elevation="25" Class="rounded-lg"/>
+@using MoviesFunction.Models
+
+<MudLayout>
+    <MudContainer Class="mt-16 px-8" MaxWidth="MaxWidth.False">
+        <MudGrid>
+        <MudItem xs="12" sm="3">
+            <MudImage Width="300" Height="218" Src="@posterPath" Fluid="true" Alt="@movieTitle" Elevation="25" Class="rounded-lg"/>
+        </MudItem>
+        <MudItem xs="12" sm="9">
+            <MudCard>
+                <MudCardHeader>
+                    <CardHeaderContent>
+                        <MudText Typo="Typo.h5">
+                            @movieTitle
+                        </MudText>
+                    </CardHeaderContent>
+                </MudCardHeader>
+                <MudCardContent>
+                    <div>
+                        <span >
+                            <MudButton Variant="Variant.Filled" Style="@($"color:{Colors.LightGreen.Accent3}; background:{Colors.BlueGrey.Darken4};")" Size="Size.Small">
+                                @voteAverage
+                            </MudButton>
+                        </span>
+                        <span>
+                            <MudButton Variant="Variant.Filled" Style="@($"color:{Colors.LightGreen.Accent3}; background:{Colors.BlueGrey.Darken4};")" Size="Size.Small">
+                                @runTime
+                            </MudButton>
+                        </span>
+                    </div>
+                    <MudText>
+                        @movieDescription
+                    </MudText>
+                </MudCardContent>
+            </MudCard>
+        </MudItem>
+        </MudGrid>
+    </MudContainer>
+</MudLayout>
 
 @code {
     [Parameter]
     public string Value { get; set; }
     public string posterPath { get; set; }
-    public string posterTitle { get; set; }
+    public string movieTitle { get; set; }
+    public string movieDescription { get; set; }
+    public string runTime { get; set; }
+    public string voteAverage { get; set; }
+    public string releaseDate { set; get; }
     
     protected override void OnParametersSet()
     {
@@ -20,11 +60,13 @@
         using (WebClient wc = new WebClient())
         {
             var json = wc.DownloadString(url);
-            var obj = JsonConvert.DeserializeObject<MovieEntity>(json);
-            Console.WriteLine("Title: "+obj.poster_path);
-            posterPath = "https://image.tmdb.org/t/p/w200" + obj.poster_path;
-            posterTitle = obj.title;
-            Console.WriteLine("Poster path: "+ posterPath);
+            var obj = JsonConvert.DeserializeObject<Movie>(json);
+            posterPath = "https://image.tmdb.org/t/p/w200" + obj.PosterPath;
+            movieTitle = obj.Title;
+            movieDescription = obj.Overview;
+            runTime = obj.Runtime + " min";
+            voteAverage = obj.VoteAverage + "/10";
+            releaseDate = obj.ReleaseDate;
         }
     }
     

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mainh\\RiderProjects\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj": {}
+    "C:\\Users\\Flavius-Alin\\Desktop\\Git repos\\SEP6_movies\\BlazorApp1\\BlazorApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mainh\\RiderProjects\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj": {
+    "C:\\Users\\Flavius-Alin\\Desktop\\Git repos\\SEP6_movies\\BlazorApp1\\BlazorApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mainh\\RiderProjects\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
+        "projectUniqueName": "C:\\Users\\Flavius-Alin\\Desktop\\Git repos\\SEP6_movies\\BlazorApp1\\BlazorApp1.csproj",
         "projectName": "BlazorApp1",
-        "projectPath": "C:\\Users\\mainh\\RiderProjects\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
-        "packagesPath": "C:\\Users\\mainh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mainh\\RiderProjects\\BlazorApp1\\BlazorApp1\\obj\\",
+        "projectPath": "C:\\Users\\Flavius-Alin\\Desktop\\Git repos\\SEP6_movies\\BlazorApp1\\BlazorApp1.csproj",
+        "packagesPath": "C:\\Users\\Flavius-Alin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Flavius-Alin\\Desktop\\Git repos\\SEP6_movies\\BlazorApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mainh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Flavius-Alin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
