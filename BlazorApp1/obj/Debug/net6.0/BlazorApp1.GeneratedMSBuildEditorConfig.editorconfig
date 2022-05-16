@@ -31,6 +31,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTW92aWVEZXRhaWxzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/Pages/Name.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmFtZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/UNIfiles/SEP6/testing projects/SEP6_movies/SEP6_movies/BlazorApp1/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
