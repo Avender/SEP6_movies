@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mainh\\RiderProjects\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj": {}
+    "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\BlazorApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mainh\\RiderProjects\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj": {
+    "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\BlazorApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mainh\\RiderProjects\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
+        "projectUniqueName": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\BlazorApp1.csproj",
         "projectName": "BlazorApp1",
-        "projectPath": "C:\\Users\\mainh\\RiderProjects\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
-        "packagesPath": "C:\\Users\\mainh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mainh\\RiderProjects\\BlazorApp1\\BlazorApp1\\obj\\",
+        "projectPath": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\BlazorApp1.csproj",
+        "packagesPath": "C:\\Users\\Festis\\.nuget\\packages\\",
+        "outputPath": "D:\\UNIfiles\\SEP6\\testing projects\\SEP6_movies\\SEP6_movies\\BlazorApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mainh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Festis\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -75,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

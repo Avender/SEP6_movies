@@ -15,7 +15,7 @@
                 <MudCardHeader>
                     <CardHeaderContent>
                         <MudText Typo="Typo.h5">
-                            @movieTitle
+                            <b>@movieTitle</b>
                         </MudText>
                     </CardHeaderContent>
                 </MudCardHeader>
@@ -35,11 +35,21 @@
                     <MudText Class="pt-2">
                         @movieDescription
                     </MudText>
-                    <MudText Class="pt-2"><span class="pr-5">Country:</span><span>@countryName</span></MudText>
-                    <MudText Class="pt-2"><span class="pr-5">Genre:</span><span>@genre</span></MudText>
-                    <MudText Class="pt-2"><span class="pr-5">Released:</span><span>@releaseDate</span></MudText>
-                    <MudText Class="pt-2"><span class="pr-5">Production:</span><span>@productionCompanies</span></MudText>
-                    <MudText Class="pt-2"><span class="pr-5">Casts:</span><span>@cast</span></MudText>
+                    <MudText Class="pt-2"><span class="pr-5"><b>Country:</b>Country:</span><span>@countryName</span></MudText>
+                    <MudText Class="pt-2"><span class="pr-5"><b>Genre:</b></span><span>@genre</span></MudText>
+                    <MudText Class="pt-2"><span class="pr-5"><b>Released:</b></span><span>@releaseDate</span></MudText>
+                    <MudText Class="pt-2"><span class="pr-5"><b>Production</b></span><span>@productionCompanies</span></MudText>
+                    <MudText Class="pt-2"><span class="pr-5"><b>Cast:</b></span>
+                        @for (int i = 0; i < 10; i++)
+                        {
+                            cast = people[i].name.ToString()+", ";
+                            <button>
+                                <span>
+                                    @cast
+                                </span>
+                            </button>
+                        }
+                    </MudText>
                 </MudCardContent>
             </MudCard>
         </MudItem>
@@ -123,10 +133,11 @@
             }
             
            
-            for (int i = 0; i < 10; i++)
-            {
-                cast += people[i].name.ToString() + ", ";
-            }
+            // for (int i = 0; i < 10; i++)
+            // {
+            //     cast = people[i].name.ToString();
+            //     Console.WriteLine(cast);
+            // }
         }
         
     }
