@@ -11,12 +11,14 @@
           "Microsoft.EntityFrameworkCore": "7.0.0-preview.4.22229.2",
           "MudBlazor": "6.0.10",
           "Newtonsoft.Json": "13.0.1",
+          "jQuery": "3.6.0",
           "System.Web.Extensions": "4.0.0.0"
         },
         "runtime": {
           "BlazorApp1.dll": {}
         }
       },
+      "jQuery/3.6.0": {},
       "Microsoft.AspNetCore.Authorization/6.0.4": {
         "dependencies": {
           "Microsoft.AspNetCore.Metadata": "6.0.4",
@@ -243,6 +245,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "jQuery/3.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sSzCTDWn15waSMjDrP21jjgG1j1pwISLaKiVCClwU4XGAmuZt+FScLkdyRvh9ppoIxAW/tJtJBYei+3CAwFQ7g==",
+      "path": "jquery/3.6.0",
+      "hashPath": "jquery.3.6.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/6.0.4": {
       "type": "package",

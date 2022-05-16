@@ -62,3 +62,41 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+
+.carousel {
+    height: 250px;
+    width: auto;
+    position: relative;
+}
+
+.carousel .leftArrow, 
+.carousel .rightArrow {
+    height: 100%;
+    width: 45px;
+    line-height: 250px;
+    font-size: 25px;
+    text-align: center;
+    top: 0;
+    z-index: 3;
+}
+
+.carousel .leftArrow {
+    position: absolute;
+    left: -50px;
+}
+
+.carousel .rightArrow {
+    position: absolute;
+    right: -50px;
+}
+
+.container {
+    display: grid;
+    grid-gap: 16px;
+    padding: 16px;
+    grid-template-columns: repeat(auto-fill,minmax(160px,1fr));
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(160px,1fr);
+    overflow-x: auto;
+}

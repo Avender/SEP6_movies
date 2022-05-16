@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Flavius-Alin\\Desktop\\Git repos\\SEP6_movies\\BlazorApp1\\BlazorApp1.csproj": {}
+    "C:\\Users\\mainh\\RiderProjects\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Flavius-Alin\\Desktop\\Git repos\\SEP6_movies\\BlazorApp1\\BlazorApp1.csproj": {
+    "C:\\Users\\mainh\\RiderProjects\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Flavius-Alin\\Desktop\\Git repos\\SEP6_movies\\BlazorApp1\\BlazorApp1.csproj",
+        "projectUniqueName": "C:\\Users\\mainh\\RiderProjects\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
         "projectName": "BlazorApp1",
-        "projectPath": "C:\\Users\\Flavius-Alin\\Desktop\\Git repos\\SEP6_movies\\BlazorApp1\\BlazorApp1.csproj",
-        "packagesPath": "C:\\Users\\Flavius-Alin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Flavius-Alin\\Desktop\\Git repos\\SEP6_movies\\BlazorApp1\\obj\\",
+        "projectPath": "C:\\Users\\mainh\\RiderProjects\\BlazorApp1\\BlazorApp1\\BlazorApp1.csproj",
+        "packagesPath": "C:\\Users\\mainh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mainh\\RiderProjects\\BlazorApp1\\BlazorApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Flavius-Alin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mainh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -51,6 +51,10 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "jQuery": {
+              "target": "Package",
+              "version": "[3.6.0, )"
             }
           },
           "imports": [
@@ -71,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
