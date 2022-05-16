@@ -3,6 +3,8 @@
 @using Newtonsoft.Json
 @using MoviesFunction.Models
 @using Newtonsoft.Json.Linq
+@inject Microsoft.AspNetCore.Components.NavigationManager navigationManager
+
 
 <MudLayout>
     <MudContainer Class="mt-16 px-8" MaxWidth="MaxWidth.False">
@@ -52,7 +54,8 @@
                             @for (int i = 0; i < 10; i++)
                             {
                                 cast = people[i].name.ToString() + ", ";
-                                <button>
+                                var num = i;
+                                <button onclick="@(() => NamePage(people[num].id))">
                                     <span class="pr-2">
                                         @cast
                                     </span>
@@ -202,6 +205,11 @@
                 yield return cc;
             }
         }
+    }
+
+    public  void NamePage(int id)
+    {
+        navigationManager.NavigateTo($"Name/{id}");
     }
 
 }
