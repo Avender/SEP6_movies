@@ -55,10 +55,12 @@
                             {
                                 cast = people[i].name.ToString() + ", ";
                                 var num = i;
-                                <button onclick="@(() => NamePage(people[num].id))">
-                                    <span class="pr-2">
-                                        @cast
-                                    </span>
+                                <button>
+                                    <a onclick="@(() => NamePage(people[num].id))">
+                                        <span class="pr-2">
+                                            @cast
+                                        </span>
+                                    </a>
                                 </button>
                             }
                         </MudText>
