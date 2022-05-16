@@ -90,20 +90,57 @@
             genres = obj.Genres;
             productionCompanyList = obj.ProductionCompanies;
 
-            
-            
-            foreach (var countryVar in productionCountry)
+
+            for (int i = 0; i < productionCountry.Count; i++)
             {
-                countryName = countryVar.Name.ToString();
+                if (i < productionCountry.Count - 1)
+                {
+                    countryName = productionCountry[i].Name.ToString() + ", ";
+                }
+                else
+                {
+                    countryName = productionCountry[i].Name.ToString();
+
+                }
             }
-            foreach (var genreVar in genres)
+            // foreach (var countryVar in productionCountry)
+            // {
+            //     countryName = countryVar.Name.ToString();
+            // }
+
+            for (int i = 0; i < genres.Count; i++)
             {
-                genre += genreVar.Name.ToString() + ", ";
+                if (i < genres.Count - 1)
+                {
+                    genre += genres[i].Name.ToString() + ", ";
+                }
+                else
+                {
+                    genre += genres[i].Name.ToString();
+
+                }
             }
-            foreach (var companyVar in productionCompanyList)
+            // foreach (var genreVar in genres)
+            // {
+            //     genre += genreVar.Name.ToString() + ", ";
+            // }
+
+            for (int i = 0; i < productionCompanyList.Count; i++)
             {
-                productionCompanies += companyVar.Name.ToString() + ", ";
+                if (i < productionCompanyList.Count - 1)
+                {
+                    productionCompanies += productionCompanyList[i].Name.ToString() + ", ";
+                }
+                else
+                {
+                    productionCompanies += productionCompanyList[i].Name.ToString();
+
+                }
             }
+            // foreach (var companyVar in productionCompanyList)
+            // {
+            //     productionCompanies += companyVar.Name.ToString() + ", ";
+            // }
         }
     }
 
@@ -122,16 +159,18 @@
                 people.Add(obj);
             }
             
-            // foreach (var castvar in people)
-            // {
-            //     cast += castvar.name.ToString() + ", ";
-            // }
             for (int i = 0; i < 10; i++)
             {
-                cast += people[i].name.ToString() + ", ";
+                if (i < 9)
+                {
+                    cast += people[i].name.ToString() + ", ";
+                }
+                else
+                {
+                    cast += people[i].name.ToString();
+                }
             }
         }
-        
     }
     
     private static IEnumerable<JToken> AllChildren(JToken json)
@@ -143,6 +182,4 @@
             }
         }
     }
-    
-    
 }
