@@ -51,8 +51,9 @@
                             <span class="pr-5">Casts:</span>
                             @for (int i = 0; i < 10; i++)
                             {
+                                cast = people[i].name.ToString() + ", ";
                                 <button>
-                                    <span>
+                                    <span class="pr-2">
                                         @cast
                                     </span>
                                 </button>
@@ -179,14 +180,14 @@
 
     // for (int i = 0; i < 10; i++)
     // {
-    // if (i < 9)
-    // {
-    //     cast += people[i].name.ToString() + ", ";
-    // }
-    // else
-    // {
-    //     cast += people[i].name.ToString();
-    // }
+    //     if (i < 9)
+    //     {
+    //         cast += people[i].name.ToString() + ", ";
+    //     }
+    //     else
+    //     {
+    //         cast += people[i].name.ToString();
+    //     }
     // }
         }
     }
